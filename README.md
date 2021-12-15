@@ -27,11 +27,11 @@ _Website development for managing accommodation reservations (cabins, houses or 
 [API Docs](http://52.67.178.177:8080/swagger-ui.html)
 
 ## Equipo / Development team 🧠
-- Aurrecoechea, Ignacio [ignacioaurre](https://github.com/ignacioaurre)
-- Faccini, Trinidad [trinifaccini](https://github.com/trinifaccini)
-- Medina, Sofía [Sofiamedina002](https://github.com/Sofiamedina002)
-- Murga, María Luciana [lumurga](https://github.com/lumurga)
-- Nolan, Brenda [BrendaNolan](https://github.com/BrendaNolan)
+- [Aurrecoechea, Ignacio](https://www.linkedin.com/in/ignacio-aurrecoechea/) - [ignacioaurre](https://github.com/ignacioaurre)
+- [Faccini, Trinidad](https://www.linkedin.com/in/trinidad-faccini/) - [trinifaccini](https://github.com/trinifaccini)
+- [Medina, Sofía](https://www.linkedin.com/in/sofia-medina-b6b646212/) - [Sofiamedina002](https://github.com/Sofiamedina002)
+- [Murga, María Luciana](https://www.linkedin.com/in/mar%C3%ADa-luciana-murga-36408819a/) - [lumurga](https://github.com/lumurga)
+- [Nolan, Brenda](https://www.linkedin.com/in/brenda-nolan-a391b36b/) - [BrendaNolan](https://github.com/BrendaNolan)
 
 
 ## Presentación / _Presentation_
