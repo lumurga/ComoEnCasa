@@ -1,0 +1,132 @@
+@import "../../Styles/Variables/colors";
+
+.menuContainer {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  z-index: 100;
+
+  transition: 0.4s;
+  background-color: $color-white-2;
+  padding: 0;
+
+  .divOne {
+    height: 30%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0.5rem;
+
+    color: $color-white-1;
+    background-color: $color-green-2;
+
+    h3 {
+      text-align: right;
+      font-weight: 700;
+    }
+  }
+
+  .divTwo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 70%;
+
+    padding: 0.5rem;
+
+    .adminMobile {
+      p {
+        text-align: right;
+        font-weight: 500;
+        color: $color-grey-4;
+        cursor: pointer;
+      }
+    }
+
+    .buttonsMenu {
+      width: 100%;
+      height: 15%;
+
+      display: flex;
+      flex-wrap: wrap;
+
+      hr {
+        color: $color-grey-4;
+        width: 100%;
+        height: 1px;
+      }
+
+      .userContainer {
+        width: 0;
+      }
+
+      .linksHeader {
+        width: 100%;
+        height: 49%;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+
+        font-weight: 700;
+        font-size: medium; //<-- estaba en 20px
+        cursor: pointer;
+
+        color: $color-grey-4;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.divThree {
+  justify-self: flex-end;
+  height: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  p {
+    font-size: small;
+    text-align: right;
+    cursor: pointer;
+    color: $color-grey-4;
+  }
+
+  hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: $color-grey-4;
+  }
+  .socials {
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: $color-grey-4;
+
+    .svg-inline--fa.fa-w-16,
+    .svg-inline--fa.fa-w-14 {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.headerCountryFlagsMobile {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-right: 0.6rem;
+  gap: 1rem;
+}

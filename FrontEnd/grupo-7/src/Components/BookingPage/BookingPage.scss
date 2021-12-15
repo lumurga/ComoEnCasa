@@ -1,0 +1,428 @@
+@import "../../Styles/Variables/colors";
+
+.bookingContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-color: $main-color-2;
+  padding: 5vh 2.5rem 10vh;
+  color: $color-grey-4;
+
+  h2 {
+    width: 100%;
+    font-weight: bold;
+    padding-bottom: 3vh;
+  }
+}
+
+.containerOne {
+  display: flex;
+  flex-wrap: wrap;
+  width: 67%;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .form {
+    width: 100%;
+    padding: 1rem 1rem 0;
+
+    background: $color-white-1;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+
+    #formBooking {
+      width: 100%;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      label {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        margin-bottom: 7px;
+
+        text-align: left;
+        font-weight: 500;
+      }
+
+      .textArea {
+        width: 47%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+
+        textarea{
+          width: 100%;
+          border: none;
+          font-size: smaller;
+          border-radius: 5px;
+          background-color: $main-color-2;
+          box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+          padding-left: 0.5rem;
+          padding-top: 0.2rem;
+          resize: none;
+        }
+      }
+
+      .covidArea {
+
+        width: 47%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+
+        input {
+          height: 20px;
+        }
+
+        p{
+          height: 52px;
+          margin-left: 5px;
+        }
+      }
+
+      .bookingGroup {
+        width: 47%;
+        display: flex;
+        flex-wrap: wrap;
+
+        input {
+          padding-left: 0.5rem;
+          width: 100%;
+          height: 30px;
+
+          margin-bottom: 1rem;
+
+          border: none;
+          border-radius: 5px;
+          background-color: $main-color-2;
+          box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+
+          &:required {
+            background-color: $color-white-1;
+          }
+        }
+      }
+
+    }
+  }
+
+  .date {
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: auto;
+
+    h2 {
+      width: 100%;
+      font-weight: bold;
+    }
+
+    .calendar {
+      grid-area: calendar;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 50vh;
+      //   background-color: $color-white-2;
+
+      & > div {
+        width: 100%;
+        height: 100%;
+      }
+
+      // .react-datepicker:nth-child(1) {
+      //   color: lime;
+      // }
+
+      .react-datepicker {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        border:none;
+        box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+
+        .react-datepicker__month-container {
+          justify-self: center;
+          height: 100%;
+          width: 100%;
+          //border-right: 2px solid;
+
+          .react-datepicker__header {
+            background: transparent;
+            border: none;
+            padding: 0;
+            margin-top: 1rem;
+
+            .react-datepicker__current-month {
+              padding-bottom: 0.5rem;
+              text-transform: capitalize;
+            }
+          }
+
+          .react-datepicker__month {
+            margin: 0;
+            padding: 0;
+          }
+
+          .react-datepicker__day-names {
+            padding-bottom: 0.3rem;
+          }
+        }
+
+        /* Flechas */
+
+        .react-datepicker__navigation {
+          border-radius: 50%;
+          top: 45%;
+        }
+
+        .react-datepicker__navigation--next {
+          background-color: $color-green-2;
+          margin-right: 1%;
+        }
+
+        .react-datepicker__navigation--previous {
+          background-color: $color-green-2;
+          margin-left: 1%;
+        }
+
+        .react-datepicker__day-name,
+        .react-datepicker__day,
+        .react-datepicker__time-name {
+          display: inline-block;
+          width: 2.5vw;
+          //line-height: 5.5vh;
+          text-align: center;
+          margin: 0.2rem;
+        }
+
+        .react-datepicker__current-month,
+        .react-datepicker-time__header,
+        .react-datepicker-year-header {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .time {
+    width: 100%;
+
+    h2 {
+      font-weight: bold;
+      padding-bottom: 3vh;
+    }
+
+    .timeContent {
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+      background: $color-white-1;
+
+      .timeText {
+        display: flex;
+
+        p {
+          margin-left: 0.5rem;
+        }
+      }
+
+      h5 {
+        padding-top: 3vh;
+        padding-bottom: 1.5vh;
+      }
+
+      select {
+        width: 60%;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+        background: $color-white-1;
+
+        padding: 0px 0.5rem;
+
+        &[disabled],
+        &:disabled {
+          cursor: not-allowed;
+        }
+
+        &:not(:focus):invalid {
+          color: grey;
+        }
+      }
+
+      .emptyTime{
+        display: none;
+        color: red;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .bookingContainer {
+    padding-bottom: 5vh;
+  }
+
+  .containerOne {
+    width: 100%;
+
+    .date {
+      .calendar {
+        height: 29vh;
+        .react-datepicker {
+          .react-datepicker__day-name,
+          .react-datepicker__day,
+          .react-datepicker__time-name {
+            width: 4vw;
+            margin: 0.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 428px) {
+  .bookingContainer {
+    padding: 4vh 1rem 5vh;
+  }
+
+  .containerOne {
+    .form {
+      padding: 1rem 1rem 0;
+
+      #formBooking {
+
+        .textArea {
+          width: 100%;
+
+          textarea{
+            height: 50px;
+          }
+
+        }
+
+        .covidArea {
+
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 1rem;
+  
+          input {
+            height: 20px;
+          }
+  
+          p{
+            height: 30px;
+            margin-left: 5px;
+          }
+        }
+        .bookingGroup {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+
+          input {
+            margin-bottom: 1rem;
+          }
+
+          label {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+
+            margin-bottom: 7px;
+
+            text-align: left;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    .date {
+      margin-bottom: 4vh;
+      margin-top: 4vh;
+
+      .calendar {
+
+        height: 40vh;
+        .react-datepicker {
+          grid-template-columns: 1fr;
+
+          .react-datepicker__month-container {
+            order: none;
+
+            .react-datepicker__header {
+              margin-top: 1rem;
+            }
+          }
+
+          .react-datepicker__navigation {
+            border-radius: 0;
+            background: transparent;
+            top: 0.8rem;
+          }
+
+          .react-datepicker__navigation--next {
+            margin-right: 2%;
+          }
+
+          .react-datepicker__navigation--previous {
+            margin-left: 2%;
+          }
+
+          .react-datepicker__day-name,
+          .react-datepicker__day,
+          .react-datepicker__time-name {
+            width: 10vw;
+            margin: 0.25rem;
+          }
+        }
+      }
+    }
+
+    .time {
+      .timeContent {
+        padding: 1rem;
+
+        .timeText {
+          display: flex;
+
+          p {
+            margin-left: 0.5rem;
+            font-size: smaller;
+          }
+        }
+
+        h5 {
+          padding-top: 2vh;
+          padding-bottom: 1.5vh;
+        }
+
+        select {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

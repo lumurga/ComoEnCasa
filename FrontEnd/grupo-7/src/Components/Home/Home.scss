@@ -1,0 +1,15 @@
+main {
+  width: 100%;
+  margin-top: 9vh; // por lo que mide el header en desktop
+  margin-bottom: 6vh; // por lo que mide el footer desktop
+  overflow: hidden;
+}
+
+@media (max-width: 820px) {
+
+  main {
+    margin-top: 5vh; // por lo que mide el header en tablet
+    margin-bottom: 4vh; // por lo que mide el footer en tablet 
+  } 
+}
+

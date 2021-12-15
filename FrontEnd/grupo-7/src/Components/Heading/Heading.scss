@@ -1,0 +1,41 @@
+@import "../../Styles/Variables/colors";
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 2.5rem;
+  height: 13vh;
+  width: 100%;
+
+  background-color: $main-color-1;
+  color: $color-white-1;
+
+  #iconBack {
+    height: 90%;
+    width: 20px;
+    color: white;
+    background-color: $main-color-1;
+  }
+
+  .backButtonHeading {
+    background-color: $main-color-1;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 820px) {
+  .headingContainer {
+    height: 7vh;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 428px) {
+  .headingContainer {
+    height: 10vh;
+    padding: 0 1rem;
+  }
+}

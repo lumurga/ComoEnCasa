@@ -1,0 +1,215 @@
+@import "../../Styles/Variables/colors";
+
+@mixin cardDisplay() {
+  @media (max-width: 414px) {
+    grid-template-rows: 50% auto;
+  }
+  @media (min-width: 429px) {
+    grid-template-columns: 45% auto;
+  }
+}
+
+.cardContainer {
+  @include cardDisplay;
+  width: 100%;
+  justify-self: center;
+
+  display: grid;
+  align-items: center;
+
+  border: 1px solid $color-grey-3;
+  box-shadow: 0px 4px 4px $shadow-black-1;
+  border-radius: 10px;
+  background-color: $color-white-1;
+  cursor: pointer;
+
+  padding: 10px;
+
+  transition: 0.3s ease-in;
+
+  .imgCard {
+    justify-self: center;
+    height: 203px;
+    width: 100%;
+    transition: 0.3s ease-in;
+
+    .accommodation{
+      z-index: 0;
+      height: 203px;
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+
+      position: relative;
+
+      transition: 0.3s ease-in;
+    }
+
+    .favorito {
+      color: $color-white-1;
+      z-index: 1;
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.txtCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr;
+  grid-template-areas:
+    "category category calification calification"
+    "title    title    calification calification"
+    "location location location     location"
+    "perks    perks    perks        perks"
+    "desc     desc     desc         desc"
+    "button   button   button       button";
+
+  margin-left: 10px;
+
+  height: 203px;
+
+  transition: 0.3s ease-in;
+}
+
+.cardCategory {
+  grid-area: category;
+  margin: 0;
+  justify-self: flex-start;
+  align-self: flex-end;
+}
+
+.cardCalification {
+  grid-area: calification;
+  margin: 0;
+  justify-self: flex-end;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
+  #p1 {
+    background: $color-mustard-1;
+    width: 30%;
+    border-radius: 10px;
+    align-self: flex-end;
+    color: white;
+  }
+  #p2 {
+    color: $color-mustard-1;
+    font-weight: bold;
+  }
+}
+
+.cardTitle {
+  grid-area: title;
+  margin: 0;
+  justify-self: flex-start;
+}
+
+.cardLocation {
+  grid-area: location;
+  margin: 0;
+  margin-top: 10px;
+  justify-self: flex-start;
+  align-self: center;
+}
+
+.cardPerks {
+  grid-area: perks;
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  margin-top: 5px;
+  justify-self: flex-start;
+  align-self: flex-start;
+}
+
+.cardDescription {
+  grid-area: desc;
+  margin: 0;
+  justify-self: flex-start;
+  align-self: center;
+  margin-bottom: 5px;
+  
+}
+
+#hidden {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#active {
+  cursor: default;
+  display: block;
+  cursor: pointer;
+}
+
+.cardButton {
+  grid-area: button;
+  margin: 0;
+
+  justify-self: center;
+  width: 100%;
+  height: 75%;
+
+  border: none;
+  border-radius: 5px;
+  background-color: $color-brown-1;
+  box-shadow: 0px 2px 4px $shadow-black-1;
+  color: $color-white-1;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-white-1;
+    color: $color-brown-1;
+    border: solid 1.5px $color-brown-1;
+  }
+}
+
+.adminButtons {
+  grid-area: button;
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  button {
+    width: 40%;
+    border: none;
+    border-radius: 5px;
+    background-color: $color-brown-1;
+    box-shadow: 0px 2px 4px $shadow-black-1;
+    color: $color-white-1;
+    font-weight: 400;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-white-1;
+      color: $color-brown-1;
+      border: solid 1.5px $color-brown-1;
+    }
+  }
+
+
+}
+
+@media (max-width: 428px) {
+  .txtCard {
+    font-size: smaller;
+    margin: 0;
+    height: 100%;
+  }
+}

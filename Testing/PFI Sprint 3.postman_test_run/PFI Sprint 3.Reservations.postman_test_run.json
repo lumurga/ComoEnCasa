@@ -1,0 +1,321 @@
+{
+	"id": "7cb86f1c-7750-4a29-bfc0-b97acf012e46",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-11-27T02:14:35.523Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-0975c605-41bb-4d12-93f7-948baff5ad0d",
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 11,
+	"results": [
+		{
+			"id": "8f6a6f1a-8b82-4051-8408-5c9a53881932",
+			"name": "ADD Reservation [Cabañas Peuma]",
+			"url": "http://localhost:8080/reservations/register",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Reservation entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Reservation entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Reservation entity": true
+				}
+			]
+		},
+		{
+			"id": "f6375ee4-6ea0-4af1-b1ae-96a9512b2c43",
+			"name": "ADD Reservation [Cabañas del Sol]",
+			"url": "http://localhost:8080/reservations/register",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Reservation entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Reservation entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Reservation entity": true
+				}
+			]
+		},
+		{
+			"id": "4045e2f3-4e25-4674-9d17-e765a8eb99d2",
+			"name": "ADD Reservation [Norway]",
+			"url": "http://localhost:8080/reservations/register",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "e4ea39a0-bbfd-43f3-a77e-0d526511436e",
+			"name": "ADD Reservation [Las Lomitas]",
+			"url": "http://localhost:8080/reservations/register",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Reservation entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Reservation entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Reservation entity": true
+				}
+			]
+		},
+		{
+			"id": "b65a4daf-80e2-4d88-9910-b3c541fc7769",
+			"name": "RE - ADD Reservation [Las Lomitas]",
+			"url": "http://localhost:8080/reservations/register",
+			"time": 32,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "e91f6473-0e8b-4113-84f7-babc586d8cc4",
+			"name": "LIST ALL Reservations",
+			"url": "http://localhost:8080/reservations",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "6a1b804f-fa9d-4fe8-a631-3ddcbee56211",
+			"name": "FIND Reservation BY id [3]",
+			"url": "http://localhost:8080/reservations/id/3",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "15a35eea-d75e-4712-8c81-22892c61e001",
+			"name": "FIND Reservation BY id product [2]",
+			"url": "http://localhost:8080/reservations/product/2",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "1e7e9b22-8aa5-477b-b854-6dc32ad5bbbe",
+			"name": "UPDATE Product [id:2-arrivalDate]",
+			"url": "http://localhost:8080/reservations/update",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Reservation entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Reservation entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Reservation entity": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 294,
+	"collection": {
+		"requests": [
+			{
+				"id": "8f6a6f1a-8b82-4051-8408-5c9a53881932",
+				"method": "POST"
+			},
+			{
+				"id": "f6375ee4-6ea0-4af1-b1ae-96a9512b2c43",
+				"method": "POST"
+			},
+			{
+				"id": "4045e2f3-4e25-4674-9d17-e765a8eb99d2",
+				"method": "POST"
+			},
+			{
+				"id": "e4ea39a0-bbfd-43f3-a77e-0d526511436e",
+				"method": "POST"
+			},
+			{
+				"id": "b65a4daf-80e2-4d88-9910-b3c541fc7769",
+				"method": "POST"
+			},
+			{
+				"id": "e91f6473-0e8b-4113-84f7-babc586d8cc4",
+				"method": "GET"
+			},
+			{
+				"id": "6a1b804f-fa9d-4fe8-a631-3ddcbee56211",
+				"method": "GET"
+			},
+			{
+				"id": "15a35eea-d75e-4712-8c81-22892c61e001",
+				"method": "GET"
+			},
+			{
+				"id": "1e7e9b22-8aa5-477b-b854-6dc32ad5bbbe",
+				"method": "PUT"
+			}
+		]
+	}
+}

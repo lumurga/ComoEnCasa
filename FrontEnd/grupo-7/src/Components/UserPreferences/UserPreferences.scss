@@ -1,0 +1,123 @@
+@import "../../Styles/Variables/colors";
+
+.userPreferencesContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3vh;
+  width: 100%;
+  height: 60vh;
+}
+
+.userPreferences {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr repeat(3, 1fr);
+  width: 45%;
+  background: $color-white-2;
+  border-radius: 20px;
+  padding: 15px;
+
+}
+
+.userAvatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-white-2;
+  border-bottom: 1px solid $color-brown-1;
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: $main-color-1;
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+  }
+}
+
+.userProps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  p {
+    width: 45%;
+  }
+
+}
+
+.userPropsEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  p {
+    width: 45%;
+  }
+}
+.userPrefLabel {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media(max-width: 820px) {
+
+  .userPreferencesContainer {
+    height: 35vh;
+  }
+
+  .userPreferences {
+    width: 70%;
+  }
+}
+
+@media(max-width: 428px) {
+
+  .userPreferencesContainer {
+    height: 35vh;
+  }
+
+  .userPreferences {
+    font-size: 13px;
+    width: 80%;
+  }
+
+  .userAvatar {
+    p {
+      width: 4rem;
+      height: 4rem;
+      font-size:2rem;
+    }
+  }
+
+  .userProps {
+    gap: 0;
+    justify-content: flex-start;
+
+    p {
+      width: 117px;
+    }
+  }
+  
+  .userPropsEmail {
+    gap: 0;
+    justify-content: flex-start;
+
+
+    p {
+      width: 117px;
+    }
+  }
+
+  .userPrefLabel {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3px;
+  }
+}

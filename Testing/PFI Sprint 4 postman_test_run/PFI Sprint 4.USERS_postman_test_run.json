@@ -1,0 +1,390 @@
+{
+	"id": "23678d83-e429-40da-9c5b-cfa8616dd860",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-12-10T02:00:56.193Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-824d6dcf-32be-4a6d-a008-91ca43bc1161",
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "515b9e3d-9e9f-47a7-a18d-ca27fd256be6",
+			"name": "ADD User [Sofia] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 1715,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1715
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "43ad7e0f-7994-4f68-827a-6f68385cc66e",
+			"name": "ADD User [Sofia] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 596,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				596
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "7b045966-aacc-41d3-a6fa-ad8048d36b09",
+			"name": "ADD UserAdmin [Luciana] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 274,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				274
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "154180ca-b60e-43e5-96dd-091bb0b98b82",
+			"name": "ADD UserAdmin [Luciana] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 356,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				356
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "b6d07c4e-3bb4-44f6-bc58-06ba774513d3",
+			"name": "ADD UserAdmin [Brenda] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 248,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				248
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "fa8682e8-e58b-455a-acf7-9974fae0798e",
+			"name": "ADD UserAdmin [Brenda] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 278,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				278
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "0eb7dcbc-4a7f-4399-b86e-3a24cc415c00",
+			"name": "ADD UserAdmin [Trini] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 255,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				255
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "5e2505a2-04fd-412d-8e47-8071482f5724",
+			"name": "ADD UserAdmin [Trini] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 276,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				276
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "a92a82c4-4591-43cf-a6e6-013e80558619",
+			"name": "ADD User [Iñaki] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 222,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "cbd08411-ecd5-48a9-a8b4-ae77aff22cb6",
+			"name": "ADD User [Iñaki] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "bd03a441-8dd6-417d-b701-ea6412d01d62",
+			"name": "FIND User BY id [1]",
+			"url": "http://localhost:8080/users/id/1",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				82
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "6739b01d-a7ff-4f32-881b-9de2a1c43a20",
+			"name": "FIND User BY email [sofiamedina02@gmail.com]",
+			"url": "http://localhost:8080/users/sofiamedina02@gmail.com",
+			"time": 138,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				138
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4655,
+	"collection": {
+		"requests": [
+			{
+				"id": "515b9e3d-9e9f-47a7-a18d-ca27fd256be6",
+				"method": "POST"
+			},
+			{
+				"id": "43ad7e0f-7994-4f68-827a-6f68385cc66e",
+				"method": "POST"
+			},
+			{
+				"id": "7b045966-aacc-41d3-a6fa-ad8048d36b09",
+				"method": "POST"
+			},
+			{
+				"id": "154180ca-b60e-43e5-96dd-091bb0b98b82",
+				"method": "POST"
+			},
+			{
+				"id": "b6d07c4e-3bb4-44f6-bc58-06ba774513d3",
+				"method": "POST"
+			},
+			{
+				"id": "fa8682e8-e58b-455a-acf7-9974fae0798e",
+				"method": "POST"
+			},
+			{
+				"id": "0eb7dcbc-4a7f-4399-b86e-3a24cc415c00",
+				"method": "POST"
+			},
+			{
+				"id": "5e2505a2-04fd-412d-8e47-8071482f5724",
+				"method": "POST"
+			},
+			{
+				"id": "a92a82c4-4591-43cf-a6e6-013e80558619",
+				"method": "POST"
+			},
+			{
+				"id": "cbd08411-ecd5-48a9-a8b4-ae77aff22cb6",
+				"method": "POST"
+			},
+			{
+				"id": "bd03a441-8dd6-417d-b701-ea6412d01d62",
+				"method": "GET"
+			},
+			{
+				"id": "6739b01d-a7ff-4f32-881b-9de2a1c43a20",
+				"method": "GET"
+			}
+		]
+	}
+}

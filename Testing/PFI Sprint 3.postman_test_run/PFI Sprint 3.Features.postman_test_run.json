@@ -1,0 +1,345 @@
+{
+	"id": "f2fd78fa-b9bd-4fc5-a969-60c1458c822e",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-11-27T02:06:51.905Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-e68522a6-57c2-4792-a913-fafe970254f7",
+	"environment_id": "0",
+	"totalPass": 17,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "96873b48-7551-4af6-b1f4-4cf52784193f",
+			"name": "ADD Feature [Cocina]",
+			"url": "http://localhost:8080/features/register",
+			"time": 134,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				134
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "bf169b37-a183-4bbd-b907-1182122497a9",
+			"name": "ADD Feature [Aire acondicionado]",
+			"url": "http://localhost:8080/features/register",
+			"time": 116,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				116
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "a4a1f0c9-ceaf-4d13-8949-b12370c705d8",
+			"name": "ADD Feature [Estacionamiento]",
+			"url": "http://localhost:8080/features/register",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "c9258dfa-fc8c-4681-997d-0efbcec8b15b",
+			"name": "ADD Feature [Wifi]",
+			"url": "http://localhost:8080/features/register",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "39b1717e-5e96-4be9-b902-0fa280dc71cc",
+			"name": "ADD Feature [Pileta]",
+			"url": "http://localhost:8080/features/register",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "f1715717-8755-4f8c-80c8-f5253de9225e",
+			"name": "ADD Feature [Televisión]",
+			"url": "http://localhost:8080/features/register",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "870afcf5-85d7-400f-9424-4de657c1387b",
+			"name": "LIST ALL Features",
+			"url": "http://localhost:8080/features",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "b67e6841-bbbf-4919-8ffa-f580b5b5c7f1",
+			"name": "FIND Feature BY id [1]",
+			"url": "http://localhost:8080/features/id/1",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The feature was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The feature was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The feature was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "6164ab4d-7100-40af-b985-4d1d5cecf672",
+			"name": "UPDATE Feature [id:4-icon]",
+			"url": "http://localhost:8080/features/update",
+			"time": 42,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				42
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Features entity": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 505,
+	"collection": {
+		"requests": [
+			{
+				"id": "96873b48-7551-4af6-b1f4-4cf52784193f",
+				"method": "POST"
+			},
+			{
+				"id": "bf169b37-a183-4bbd-b907-1182122497a9",
+				"method": "POST"
+			},
+			{
+				"id": "a4a1f0c9-ceaf-4d13-8949-b12370c705d8",
+				"method": "POST"
+			},
+			{
+				"id": "c9258dfa-fc8c-4681-997d-0efbcec8b15b",
+				"method": "POST"
+			},
+			{
+				"id": "39b1717e-5e96-4be9-b902-0fa280dc71cc",
+				"method": "POST"
+			},
+			{
+				"id": "f1715717-8755-4f8c-80c8-f5253de9225e",
+				"method": "POST"
+			},
+			{
+				"id": "870afcf5-85d7-400f-9424-4de657c1387b",
+				"method": "GET"
+			},
+			{
+				"id": "b67e6841-bbbf-4919-8ffa-f580b5b5c7f1",
+				"method": "GET"
+			},
+			{
+				"id": "6164ab4d-7100-40af-b985-4d1d5cecf672",
+				"method": "PUT"
+			}
+		]
+	}
+}

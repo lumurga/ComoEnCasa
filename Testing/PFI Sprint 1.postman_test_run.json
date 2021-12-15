@@ -1,0 +1,762 @@
+{
+	"id": "bccc9041-5380-4915-a7a9-2f9a60274f5b",
+	"name": "PFI Sprint 1",
+	"timestamp": "2021-10-25T18:16:57.625Z",
+	"collection_id": "17479324-c69e5c1e-86d3-46bd-b6a6-13ce81718e07",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 24,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "1ba2c763-e36d-4b72-9e3f-d19d2bb71654",
+			"name": "ADD Categoria [familiares]",
+			"url": "http://localhost:8080/categorias/registrar",
+			"time": 1048,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1048
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "b5d69198-2edc-44ce-96fa-cb39fe913127",
+			"name": "ADD Categoria [playa]",
+			"url": "http://localhost:8080/categorias/registrar",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "ca3655de-4c11-4e63-91c9-f278c521cf38",
+			"name": "ADD Categoria [montaña]",
+			"url": "http://localhost:8080/categorias/registrar",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "9c8a5848-2634-4113-8937-479bddee5642",
+			"name": "ADD Categoria [ciudad]",
+			"url": "http://localhost:8080/categorias/registrar",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "02a82d1b-0250-44aa-97bf-0ddd759b4f0a",
+			"name": "RE-ADD Categoria [ciudad]",
+			"url": "http://localhost:8080/categorias/registrar",
+			"time": 29,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "2f8a1350-6243-4d9d-9fa8-0cf6c20ac082",
+			"name": "LIST ALL Categorias",
+			"url": "http://localhost:8080/categorias",
+			"time": 126,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				126
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "e036a596-df99-4f86-8a6c-7d1a5a373718",
+			"name": "FIND Categoria BY id [1-familiares]",
+			"url": "http://localhost:8080/categorias/id/1",
+			"time": 94,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "c9befb3e-b911-46de-a9e1-85517af4cf53",
+			"name": "FIND Categoria BY id [2-playa]",
+			"url": "http://localhost:8080/categorias/id/2",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "54069404-4935-4c78-8045-62e95432bf54",
+			"name": "FIND Categoria BY id [3-montaña]",
+			"url": "http://localhost:8080/categorias/id/3",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "f6117eac-803e-4e2e-a6ec-0a9270dba683",
+			"name": "FIND Categoria BY id [4-ciudad]",
+			"url": "http://localhost:8080/categorias/id/4",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "3f95893e-a9cf-4f57-b686-1f05dc08f2ae",
+			"name": "FIND Categoria BY titulo [familiares]",
+			"url": "http://localhost:8080/categorias/familiares",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "7e2be98d-9387-472f-8238-dd936dc2f364",
+			"name": "FIND Categoria BY titulo [playa]",
+			"url": "http://localhost:8080/categorias/playa",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "9827a4d5-55a4-41a6-a962-73315e1c203e",
+			"name": "FIND Categoria BY titulo [montaña]",
+			"url": "http://localhost:8080/categorias/monta%C3%B1a",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "a00da5ba-fce5-4866-b321-a083b2e43a4d",
+			"name": "FIND Categoria BY titulo [ciudad]",
+			"url": "http://localhost:8080/categorias/ciudad",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "35cc0f81-776f-47fd-8dca-b4500558a996",
+			"name": "UPDATE Categoria [4-ciudad-urlImagen]",
+			"url": "http://localhost:8080/categorias/modificar",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "f2731925-9efa-4b4d-af61-b0074ab2e8ad",
+			"name": "DELETE Categoria [id:2-titulo:playa]",
+			"url": "http://localhost:8080/categorias/borrar/2",
+			"time": 71,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "b4f0923e-5275-4b2e-a576-906cae53dde4",
+			"name": "FIND Categoria BY id [2]",
+			"url": "http://localhost:8080/categorias/id/2",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "9ea06dd1-5026-4e90-9521-1c36a2055749",
+			"name": "FIND Categoria BY titulo [playa]",
+			"url": "http://localhost:8080/categorias/playa",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "2b419e51-fab4-4191-a741-f89409733e4f",
+			"name": "UPDATE Categoria [id:2-urlImagen]",
+			"url": "http://localhost:8080/categorias/modificar",
+			"time": 17,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "222d61ed-b95e-47c1-a64e-090f0f8f730d",
+			"name": "RE-DELETE Categoria [2]",
+			"url": "http://localhost:8080/categorias/borrar/2",
+			"time": 23,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "9d1da57d-24bd-4cad-bfae-9fdd051bd9c3",
+			"name": "DELETE Categoria [1-familiares]",
+			"url": "http://localhost:8080/categorias/borrar/1",
+			"time": 44,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "4962f4bd-8d49-472f-9192-427551df8416",
+			"name": "DELETE Categoria [3-montaña]",
+			"url": "http://localhost:8080/categorias/borrar/3",
+			"time": 47,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				47
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "8b54c8f1-1dac-4af1-9b38-d5a3282b31f7",
+			"name": "DELETE Categoria [4-ciudad]",
+			"url": "http://localhost:8080/categorias/borrar/4",
+			"time": 39,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "b449353a-7382-43e4-affb-42b2664362ec",
+			"name": "LIST ALL Categorias",
+			"url": "http://localhost:8080/categorias",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1995,
+	"collection": {
+		"requests": [
+			{
+				"id": "1ba2c763-e36d-4b72-9e3f-d19d2bb71654",
+				"method": "POST"
+			},
+			{
+				"id": "b5d69198-2edc-44ce-96fa-cb39fe913127",
+				"method": "POST"
+			},
+			{
+				"id": "ca3655de-4c11-4e63-91c9-f278c521cf38",
+				"method": "POST"
+			},
+			{
+				"id": "9c8a5848-2634-4113-8937-479bddee5642",
+				"method": "POST"
+			},
+			{
+				"id": "02a82d1b-0250-44aa-97bf-0ddd759b4f0a",
+				"method": "POST"
+			},
+			{
+				"id": "2f8a1350-6243-4d9d-9fa8-0cf6c20ac082",
+				"method": "GET"
+			},
+			{
+				"id": "e036a596-df99-4f86-8a6c-7d1a5a373718",
+				"method": "GET"
+			},
+			{
+				"id": "c9befb3e-b911-46de-a9e1-85517af4cf53",
+				"method": "GET"
+			},
+			{
+				"id": "54069404-4935-4c78-8045-62e95432bf54",
+				"method": "GET"
+			},
+			{
+				"id": "f6117eac-803e-4e2e-a6ec-0a9270dba683",
+				"method": "GET"
+			},
+			{
+				"id": "3f95893e-a9cf-4f57-b686-1f05dc08f2ae",
+				"method": "GET"
+			},
+			{
+				"id": "7e2be98d-9387-472f-8238-dd936dc2f364",
+				"method": "GET"
+			},
+			{
+				"id": "9827a4d5-55a4-41a6-a962-73315e1c203e",
+				"method": "GET"
+			},
+			{
+				"id": "a00da5ba-fce5-4866-b321-a083b2e43a4d",
+				"method": "GET"
+			},
+			{
+				"id": "35cc0f81-776f-47fd-8dca-b4500558a996",
+				"method": "PUT"
+			},
+			{
+				"id": "f2731925-9efa-4b4d-af61-b0074ab2e8ad",
+				"method": "DELETE"
+			},
+			{
+				"id": "b4f0923e-5275-4b2e-a576-906cae53dde4",
+				"method": "GET"
+			},
+			{
+				"id": "9ea06dd1-5026-4e90-9521-1c36a2055749",
+				"method": "GET"
+			},
+			{
+				"id": "2b419e51-fab4-4191-a741-f89409733e4f",
+				"method": "PUT"
+			},
+			{
+				"id": "222d61ed-b95e-47c1-a64e-090f0f8f730d",
+				"method": "DELETE"
+			},
+			{
+				"id": "9d1da57d-24bd-4cad-bfae-9fdd051bd9c3",
+				"method": "DELETE"
+			},
+			{
+				"id": "4962f4bd-8d49-472f-9192-427551df8416",
+				"method": "DELETE"
+			},
+			{
+				"id": "8b54c8f1-1dac-4af1-9b38-d5a3282b31f7",
+				"method": "DELETE"
+			},
+			{
+				"id": "b449353a-7382-43e4-affb-42b2664362ec",
+				"method": "GET"
+			}
+		]
+	}
+}

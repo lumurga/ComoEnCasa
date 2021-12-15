@@ -1,0 +1,204 @@
+{
+	"id": "a07b6225-6fe6-4e43-a01f-97d68418f853",
+	"name": "PRUEBAS trini",
+	"timestamp": "2021-11-27T02:20:18.444Z",
+	"collection_id": "17479324-2de53d3c-d7ec-4839-9a62-34ffa4c7b508",
+	"folder_id": "17479324-5bc24ff0-2afb-47ba-a671-9997296b9309",
+	"environment_id": "0",
+	"totalPass": 6,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b865f2ab-5447-4512-b414-f454e5d38e40",
+			"name": "DELETE Reservation [id:1]",
+			"url": "http://localhost:8080/reservations/delete/1",
+			"time": 64,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "1f792d7b-9ea2-4906-b19e-0ad32abcedbc",
+			"name": "FIND Reservation BY id [1]",
+			"url": "http://localhost:8080/reservations/id/1",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "dbdf9903-106a-45c3-9ee7-f0197c13791c",
+			"name": "DELETE Reservation [id:2]",
+			"url": "http://localhost:8080/reservations/delete/2",
+			"time": 59,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "34a4a9ca-edbb-4ef4-af0c-9c6281637fe6",
+			"name": "DELETE Reservation [id:3]",
+			"url": "http://localhost:8080/reservations/delete/3",
+			"time": 48,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "389dc0dd-58b5-44c4-aa68-59029a6de27b",
+			"name": "DELETE Reservation [id:4]",
+			"url": "http://localhost:8080/reservations/delete/4",
+			"time": 52,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "db3f50a6-d20c-4efa-a7e3-0427b2d0499f",
+			"name": "LIST ALL Reservations",
+			"url": "http://localhost:8080/reservations",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 274,
+	"collection": {
+		"requests": [
+			{
+				"id": "b865f2ab-5447-4512-b414-f454e5d38e40",
+				"method": "DELETE"
+			},
+			{
+				"id": "1f792d7b-9ea2-4906-b19e-0ad32abcedbc",
+				"method": "GET"
+			},
+			{
+				"id": "dbdf9903-106a-45c3-9ee7-f0197c13791c",
+				"method": "DELETE"
+			},
+			{
+				"id": "34a4a9ca-edbb-4ef4-af0c-9c6281637fe6",
+				"method": "DELETE"
+			},
+			{
+				"id": "389dc0dd-58b5-44c4-aa68-59029a6de27b",
+				"method": "DELETE"
+			},
+			{
+				"id": "db3f50a6-d20c-4efa-a7e3-0427b2d0499f",
+				"method": "GET"
+			}
+		]
+	}
+}

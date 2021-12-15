@@ -1,0 +1,211 @@
+@import "../../Styles/Variables/colors";
+
+.searcherContainer {
+  height: 25vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: $main-color-1;
+  color: $color-white-1;
+
+  h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: xx-large;
+  }
+
+  .inputsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    height: 25%;
+
+    .inputLocation {
+      position: relative;
+      display: flex;
+      width: 40%;
+      height: 100%;
+      border: 1px solid black;
+      border-radius: 5px;
+      background: white;
+      border: none;
+
+
+      .iconLocation {
+        width: 7%;
+        align-self: center;
+        color: $main-color-1;
+      }
+
+      input {
+        width: 100%;
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .listLocation {
+        flex-direction: column;
+        position: absolute;
+        width: 90%;
+        top: 40px;
+        left: 20px;
+        list-style: none;
+
+        li {
+          display: flex;
+          align-items: center;
+          background: $color-white-1;
+          color: black;
+          width: 100%;
+          height: 40px;
+          cursor: pointer;
+          &:hover {
+            background-color: $main-color-1;
+            color: $color-white-1;
+          }
+        }
+        li:not(:last-child) {
+          border-bottom: 1.5px solid $main-color-1;
+        }
+      }
+    }
+
+    .react-datepicker-wrapper {
+      display: flex;
+      width: 40%;
+      height: 100%;
+      border-radius: 5px;
+
+      margin: 0;
+
+      .react-datepicker__input-container {
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+      }
+
+      .datepicker {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        padding-left: 0.5rem;
+        border: none;
+        margin: 0;
+      }
+    }
+
+    .search {
+      height: 100%;
+      width: 17%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0;
+      padding: 0;
+
+      font-size: 1rem;
+      color: $color-white-1;
+      border-radius: 5px;
+      background: $color-brown-1;
+      cursor: pointer;
+      border: none;
+      box-shadow: 0px 1px 5px -2px rgba(0, 0, 0,0.42);
+
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .searcherContainer {
+    height: 13vh;
+
+    background-color: $main-color-1;
+    color: $color-white-1;
+
+    h1 {
+      font-size: x-large;
+    }
+
+    .inputsContainer {
+      width: 94%;
+
+      .inputLocation {
+        .listLocation {
+          top: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 428px) {
+
+  .searcherContainer {
+    height: 33vh;
+
+    h1 {
+      font-size: 20px;
+      width: 92%;
+    }
+
+    .inputsContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      width: 92%;
+      height: 55%;
+
+      .inputLocation {
+        width: 100%;
+        height: 28%;
+
+        .listLocation {
+          li {
+            font-size: smaller;
+            height: 40px;
+          }
+        }
+
+        .iconLocation {
+          width: 7%;
+          align-self: center;
+          color: $color-grey-4;
+        }
+      }
+
+      .react-datepicker-wrapper{
+        width: 100%;
+        height: 28%;
+
+      }
+
+      .search {
+        width: 100%;
+        height: 28%;
+      }
+    }
+  }
+
+  
+}

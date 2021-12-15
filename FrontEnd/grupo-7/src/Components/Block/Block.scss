@@ -1,0 +1,83 @@
+@import "../../Styles/Variables/colors";
+
+.blockContainer {
+  width: 100%;
+  height: 240px; // --> si no le pongo eso no puedo controlar el alto ( o lo hago desde aca o desde la altura de las rows de .bloqueCategorias)
+
+  justify-self: center;
+
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid $color-white-2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px $shadow-black-1;
+  border-radius: 10px;
+  cursor: pointer;
+
+  .imgContainer {
+    width: 100%;
+    height: 70%;
+  
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+
+    img {
+      width: 100%;
+      height: 100%;
+  
+      object-fit: cover;
+  
+      padding: 0;
+      margin: 0;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+
+  .titleContainer {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+
+    padding: 0px 10px;
+    margin: 0;
+
+    text-align: left;
+    font-weight: 700;
+
+    h3 {
+      font-weight: 700;
+      color: $color-grey-4;
+      padding: 0;
+      margin: 0;
+    }
+
+    p {
+      font-weight: 700;
+      color: $color-grey-1;
+      padding: 0;
+      margin: 5px 0px;
+    }
+  }
+}
+
+
+@media (max-width: 428px) {
+  .blockContainer {
+    height: 200px;
+
+    div {
+      h3 {
+        font-size: medium;
+      }
+
+      p {
+        font-size: medium;
+      }
+    }
+  }
+}

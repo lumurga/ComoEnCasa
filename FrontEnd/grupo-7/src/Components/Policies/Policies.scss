@@ -1,0 +1,79 @@
+@import "../../Styles/Variables/colors";
+
+.policiesContainer {
+    padding: 5vh 0rem 5vh;
+
+    color: $color-grey-4;
+
+    background: $color-white-1;
+
+    h2 {
+        padding: 0 2.5rem 2vh;
+        font-weight: bold;
+    }
+
+    hr {
+        padding: 0;
+        color: $color-green-1;
+    }
+
+    .info {
+        padding: 0vh 3rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+
+        h3 {
+            padding: 5vh 0 3vh;
+            font-weight: 450;
+        }
+
+        .aux {
+
+        }
+
+        // ul {
+        //     list-style: none;
+        //     li {
+        //         margin-bottom: 2vh;
+        //     }
+        // }
+    }
+}
+
+@media (max-width: 820px) {
+  
+    .policiesContainer {
+        padding: 4vh 0rem 5vh;
+  
+        h2 {
+            padding: 0 1.5rem 2vh;
+        }
+  
+        .info {
+            padding: 0vh 2rem 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 428px) {
+
+    .policiesContainer {
+        padding: 4vh 0rem 5vh;
+
+        h2 {
+        padding: 0 1rem 2vh;
+        }
+
+        .info {
+            padding: 0vh 1.5rem 0;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+}
+  
+  
+

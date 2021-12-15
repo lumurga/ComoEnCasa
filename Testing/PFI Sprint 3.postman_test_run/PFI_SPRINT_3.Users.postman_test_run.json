@@ -1,0 +1,390 @@
+{
+	"id": "6e752b18-77b9-44ea-9fa2-2f66e4b480c3",
+	"name": "PRUEBAS trini",
+	"timestamp": "2021-11-27T02:04:13.451Z",
+	"collection_id": "17479324-2de53d3c-d7ec-4839-9a62-34ffa4c7b508",
+	"folder_id": "17479324-b59d06c9-03cb-4be6-9c2c-4708d1d59d96",
+	"environment_id": "0",
+	"totalPass": 12,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "12714699-e580-4d20-baf2-1e04172dc589",
+			"name": "ADD User [Sofia] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 880,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				880
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "eaf442f2-ae6c-4607-a68e-5685119a05d0",
+			"name": "ADD User [Sofia] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 607,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				607
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "144d1e61-b5ca-4bb9-8194-9d0465e2eccd",
+			"name": "ADD User [Luciana] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 218,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				218
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "4960e339-2735-4e7d-b5e0-c0c68b099275",
+			"name": "ADD User [Luciana] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 210,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "851de6e1-15d4-4925-9888-793a36d0809c",
+			"name": "ADD User [Brenda] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 211,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				211
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "30aa50a7-734d-43d7-8c61-5063053a5b91",
+			"name": "ADD User [Brenda] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "f0494247-d6be-474b-9a39-81710058d1fc",
+			"name": "ADD User [Trini] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 221,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "d5f4997a-e273-4743-8344-63b0dd213e94",
+			"name": "ADD User [Trini] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "bde2f89b-4cd3-4a09-922a-b86b3e82e23a",
+			"name": "ADD User [Iñaki] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 217,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				217
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "10cc5141-88dc-4936-9d17-a7ce9b9ff0bd",
+			"name": "ADD User [Iñaki] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 215,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				215
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "fdc824a3-1e61-4a8a-82e1-275fd0c106e8",
+			"name": "ADD User [Agustina] SIGNUP",
+			"url": "http://localhost:8080/api/auth/signup",
+			"time": 221,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"STATUS CODE: 201": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 201": true
+				}
+			]
+		},
+		{
+			"id": "f2686b31-a80a-41b1-8dfd-e09cad3e2dc0",
+			"name": "ADD User [Agustina] LOGIN",
+			"url": "http://localhost:8080/api/auth/signin",
+			"time": 216,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				216
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3635,
+	"collection": {
+		"requests": [
+			{
+				"id": "12714699-e580-4d20-baf2-1e04172dc589",
+				"method": "POST"
+			},
+			{
+				"id": "eaf442f2-ae6c-4607-a68e-5685119a05d0",
+				"method": "POST"
+			},
+			{
+				"id": "144d1e61-b5ca-4bb9-8194-9d0465e2eccd",
+				"method": "POST"
+			},
+			{
+				"id": "4960e339-2735-4e7d-b5e0-c0c68b099275",
+				"method": "POST"
+			},
+			{
+				"id": "851de6e1-15d4-4925-9888-793a36d0809c",
+				"method": "POST"
+			},
+			{
+				"id": "30aa50a7-734d-43d7-8c61-5063053a5b91",
+				"method": "POST"
+			},
+			{
+				"id": "f0494247-d6be-474b-9a39-81710058d1fc",
+				"method": "POST"
+			},
+			{
+				"id": "d5f4997a-e273-4743-8344-63b0dd213e94",
+				"method": "POST"
+			},
+			{
+				"id": "bde2f89b-4cd3-4a09-922a-b86b3e82e23a",
+				"method": "POST"
+			},
+			{
+				"id": "10cc5141-88dc-4936-9d17-a7ce9b9ff0bd",
+				"method": "POST"
+			},
+			{
+				"id": "fdc824a3-1e61-4a8a-82e1-275fd0c106e8",
+				"method": "POST"
+			},
+			{
+				"id": "f2686b31-a80a-41b1-8dfd-e09cad3e2dc0",
+				"method": "POST"
+			}
+		]
+	}
+}

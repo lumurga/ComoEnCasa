@@ -1,0 +1,2894 @@
+{
+	"id": "2c75b613-5361-4c3c-844e-8831e6cc722a",
+	"name": "PFI Sprint 2",
+	"timestamp": "2021-11-12T22:42:11.280Z",
+	"collection_id": "17479324-1e60e8e8-27c5-46f4-8f18-0b5942c256a8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 121,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ccf4f356-f951-4215-bc0a-00d6b7fb30b5",
+			"name": "ADD Category [Montaña]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 1030,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1030
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "bb133314-ac8f-45d5-b192-c832b5bdf3ff",
+			"name": "ADD Category [Playa]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "042cdd93-58e6-47c3-86a6-d2742479a858",
+			"name": "ADD Category [Campo]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				61
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "809f5b9e-674f-450e-8fd1-6b485901e446",
+			"name": "ADD Category [Ciudad]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "62056e1e-f9f4-4881-af8c-4dae68d1bf36",
+			"name": "RE - ADD Category [Montaña]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 60,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				60
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "1ee39110-8010-45ab-94a0-1b3956aea4a5",
+			"name": "LIST ALL Categories",
+			"url": "http://localhost:8080/categories",
+			"time": 56,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				56
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "fdbe6875-d383-4353-b66b-045d13746eb1",
+			"name": "FIND Category BY id [1]",
+			"url": "http://localhost:8080/categories/id/1",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The category was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The category was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				63
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The category was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "58f78f4e-b3ae-49af-a7e0-b0f8138bb54a",
+			"name": "FIND Category BY titulo [Playa]",
+			"url": "http://localhost:8080/categories/Playa",
+			"time": 49,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The category was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The category was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				49
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The category was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "5b13e500-0c95-421f-b473-80cd506540f2",
+			"name": "UPDATE Category [id:3-urlImagen]",
+			"url": "http://localhost:8080/categories/update",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "11f66349-3a69-455c-8b5e-4a1fc77cb33c",
+			"name": "ADD City [BsAs]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "4679c36a-7cf5-479f-ad2c-5dac420fc4bf",
+			"name": "ADD City [Rosario]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "04b8ab5b-600e-43c7-91ef-c3d6c27133e3",
+			"name": "ADD City [VLA]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "ccf943b8-1041-45c0-ae4f-8c60fb027959",
+			"name": "ADD City [P.Madryn]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "070c0e01-a1b1-4a34-9bb5-636bd6864acc",
+			"name": "RE - ADD City [BsAs]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 52,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "aa763f5a-2bb8-4eaa-bd83-c9d25d931a0d",
+			"name": "LIST ALL Cities",
+			"url": "http://localhost:8080/cities",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "114f6e81-3fb9-43b3-a601-655b9f690017",
+			"name": "FIND City BY id [1]",
+			"url": "http://localhost:8080/cities/id/1",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The city was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The city was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The city was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "90bd706f-3ae0-44f5-9cc4-c1d396987986",
+			"name": "FIND City BY titulo [Rosario]",
+			"url": "http://localhost:8080/cities/Rosario",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The city was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The city was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The city was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "98037dd2-a18e-45cd-bd5d-5973ac00d543",
+			"name": "UPDATE City [id:4 - name]",
+			"url": "http://localhost:8080/cities/update",
+			"time": 56,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				56
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "03f2a45a-a5bf-4eae-85be-c15c03078afd",
+			"name": "ADD Product [Cabañas Peuma]",
+			"url": "http://localhost:8080/products/register",
+			"time": 187,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				187
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "a5a55e6a-2681-436d-b2d7-823a88f2acc9",
+			"name": "ADD Product [Cabañas del Sol]",
+			"url": "http://localhost:8080/products/register",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "302c2ae8-a640-4916-a14f-1e3c1c87489d",
+			"name": "ADD Product [Norway]",
+			"url": "http://localhost:8080/products/register",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "15d7cb68-d510-4f82-a84d-cd8eb89f3296",
+			"name": "ADD Product [Las Lomitas]",
+			"url": "http://localhost:8080/products/register",
+			"time": 33,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "b42a6826-33c5-465c-82ca-3026acdbb3a3",
+			"name": "RE - ADD Product [Cabañas Peuma]",
+			"url": "http://localhost:8080/products/register",
+			"time": 51,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				51
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "88b405b9-f429-4c4d-a3a0-d32eac60948a",
+			"name": "LIST ALL Products",
+			"url": "http://localhost:8080/products",
+			"time": 71,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				71
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "40909705-39d6-46b0-b08e-c39c622e8ae9",
+			"name": "FIND Product BY id [1]",
+			"url": "http://localhost:8080/products/id/1",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The product was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The product was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The product was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "3b29ebc5-59c0-4093-80f6-88803789a6d3",
+			"name": "FIND Product BY name [Norway]",
+			"url": "http://localhost:8080/products/Norway",
+			"time": 41,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The product was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The product was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				41
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The product was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "1f523eff-c2de-45cb-a34e-5505adc674c7",
+			"name": "UPDATE Product [id:3-latitude]",
+			"url": "http://localhost:8080/products/update",
+			"time": 39,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "61bfe948-2db3-4be4-ac91-c7e0fca54c35",
+			"name": "ADD Feature [Cocina]",
+			"url": "http://localhost:8080/features/register",
+			"time": 41,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				41
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "2c2f09fd-488c-42ae-a0b9-39f3971866f0",
+			"name": "ADD Feature [Aire acondicionado]",
+			"url": "http://localhost:8080/features/register",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "8500d53c-9c1d-4ed5-9a36-7391be99f4d9",
+			"name": "ADD Feature [Estacionamiento]",
+			"url": "http://localhost:8080/features/register",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "c09f24c6-19e5-450e-896a-3972d0d4a84b",
+			"name": "ADD Feature [Wifi]",
+			"url": "http://localhost:8080/features/register",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "f2027763-45f0-4f77-ad84-73dbff87a41d",
+			"name": "ADD Feature [Pileta]",
+			"url": "http://localhost:8080/features/register",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "d1403579-2676-4682-aca0-84a91a42f060",
+			"name": "ADD Feature [Televisión]",
+			"url": "http://localhost:8080/features/register",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "ab4ee4f3-94ff-4b52-906b-cd4130e16aad",
+			"name": "LIST ALL Features",
+			"url": "http://localhost:8080/features",
+			"time": 54,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "d8ef784f-c823-4ce5-b6be-e685cd9fad75",
+			"name": "FIND Feature BY id [1]",
+			"url": "http://localhost:8080/features/id/1",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The feature was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The feature was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The feature was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "004afb54-a9f1-4585-9944-1c376a7f2f27",
+			"name": "UPDATE Feature [id:4-icon]",
+			"url": "http://localhost:8080/features/update",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Features entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Features entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Features entity": true
+				}
+			]
+		},
+		{
+			"id": "c1e6f566-97bb-4c3d-bdb7-b80b0b745037",
+			"name": "ADD Image [Pool1]",
+			"url": "http://localhost:8080/images/register",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "dc1578d8-8e6d-4c5c-8860-d08138837482",
+			"name": "ADD Image [Pool2]",
+			"url": "http://localhost:8080/images/register",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "12431124-0586-4664-851a-ea7bb6b24876",
+			"name": "ADD Image [Pool3]",
+			"url": "http://localhost:8080/images/register",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "21bb2b1f-9c5e-4254-a6c3-d47c7cb2a436",
+			"name": "ADD Image [Pool4]",
+			"url": "http://localhost:8080/images/register",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "31e04356-d527-49df-aada-040d1defc755",
+			"name": "RE - ADD Image [Pool1]",
+			"url": "http://localhost:8080/images/register",
+			"time": 19,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "9d0b7a3e-f1ed-4c8e-9bbe-c3ebd21f33b2",
+			"name": "LIST ALL Images",
+			"url": "http://localhost:8080/images",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "5a1ecd38-177b-4f38-a243-5be7b6f8ec81",
+			"name": "FIND Image BY id [1]",
+			"url": "http://localhost:8080/images/id/1",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The image was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The image was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The image was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "a88bdc5d-8123-47a2-904b-d3a0560af6d0",
+			"name": "UPDATE Image [id:2-urlImage]",
+			"url": "http://localhost:8080/images/update",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "50b27be5-627e-43be-8d31-aa87bac0bea1",
+			"name": "DELETE Image [id:1]",
+			"url": "http://localhost:8080/images/delete/1",
+			"time": 94,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				94
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "e5a00749-99ff-43ce-a5c6-65f1574aeb26",
+			"name": "FIND Image BY id [1]",
+			"url": "http://localhost:8080/images/id/1",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "8d4a9d6c-39d6-470d-ab4c-84072612bd14",
+			"name": "UPDATE Image [id:1-urlImage]",
+			"url": "http://localhost:8080/images/update",
+			"time": 33,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"STATUS CODE: 404": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 404": true
+				}
+			]
+		},
+		{
+			"id": "976c1f94-122b-4fb5-b5e1-caef95fc1572",
+			"name": "RE - DELETE Image [id:1]",
+			"url": "http://localhost:8080/images/delete/1",
+			"time": 33,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "b5a805f1-febd-4268-b8d7-d58781d4cd2e",
+			"name": "DELETE Image [id:2]",
+			"url": "http://localhost:8080/images/delete/2",
+			"time": 52,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "0e9f80c8-f048-451b-88e2-4b8e18bd6bb7",
+			"name": "DELETE Image [id:3]",
+			"url": "http://localhost:8080/images/delete/3",
+			"time": 56,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				56
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "8abb0900-07d1-44ef-beab-ca1f2980b782",
+			"name": "DELETE Image [id:4]",
+			"url": "http://localhost:8080/images/delete/4",
+			"time": 30,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "2701a355-a2fa-487d-9052-efa680d1a63c",
+			"name": "LIST ALL Images",
+			"url": "http://localhost:8080/images",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "ba38cbba-34d1-40f7-89f2-ff0c3c1fb0b6",
+			"name": "DELETE Feature [id:1]",
+			"url": "http://localhost:8080/features/delete/1",
+			"time": 39,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "2ed6d76f-dad8-4e07-8fa9-53a6e4f659f8",
+			"name": "FIND Feature BY id [1]",
+			"url": "http://localhost:8080/features/id/1",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "4388cbd7-811c-431e-885d-6a066257983d",
+			"name": "UPDATE Feature [Wifi-icon]",
+			"url": "http://localhost:8080/features/update",
+			"time": 26,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"STATUS CODE: 404": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 404": true
+				}
+			]
+		},
+		{
+			"id": "81b5046b-1208-4f9c-818a-44e67cfe094b",
+			"name": "RE - DELETE Feature [id:1]",
+			"url": "http://localhost:8080/features/delete/1",
+			"time": 24,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "4124d6e3-ac4f-4c3b-8af8-6a94bf6a509b",
+			"name": "DELETE Feature [id:2]",
+			"url": "http://localhost:8080/features/delete/2",
+			"time": 23,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "7ddc3c19-6297-4ba3-a12a-4e64278321c6",
+			"name": "DELETE Feature [id:3]",
+			"url": "http://localhost:8080/features/delete/3",
+			"time": 32,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "fc1dfd03-4ce9-47a4-a8b9-5885b2708ef9",
+			"name": "DELETE Feature [id:4]",
+			"url": "http://localhost:8080/features/delete/4",
+			"time": 31,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "7a574091-1228-46ba-8194-3dda8fc8b85b",
+			"name": "DELETE Feature [id:5]",
+			"url": "http://localhost:8080/features/delete/5",
+			"time": 41,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				41
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "c320a50e-7ead-446c-b9d2-cb9c17881022",
+			"name": "DELETE Feature [id:6]",
+			"url": "http://localhost:8080/features/delete/6",
+			"time": 40,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "666cda2a-6280-41ca-a00c-cc4d6e54666e",
+			"name": "LIST ALL Features",
+			"url": "http://localhost:8080/features",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "18e89786-e3a9-467f-bdd1-1958b4af9e01",
+			"name": "DELETE Product [id:3]",
+			"url": "http://localhost:8080/products/delete/3",
+			"time": 85,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				85
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "bb08c891-80c3-48ef-8547-4994b62a11e4",
+			"name": "FIND Product BY id [3]",
+			"url": "http://localhost:8080/products/id/3",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "022fb89f-cf82-461e-a7cb-9a009aadee74",
+			"name": "UPDATE Product [id:3-longitude]",
+			"url": "http://localhost:8080/products/update",
+			"time": 13,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "852fede9-3b92-4f2d-9103-596746cc46af",
+			"name": "RE - DELETE Product [id:3]",
+			"url": "http://localhost:8080/products/delete/3",
+			"time": 12,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "760b5229-3009-44ba-a00f-e0e29a032416",
+			"name": "DELETE Product [id:1]",
+			"url": "http://localhost:8080/products/delete/1",
+			"time": 52,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				52
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "aeccaa90-400e-4d7e-97d8-18487aa5e260",
+			"name": "DELETE Product [id:2]",
+			"url": "http://localhost:8080/products/delete/2",
+			"time": 75,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				75
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "147c40cd-325e-4326-90b0-23f53d05e1a0",
+			"name": "DELETE Product [id:4]",
+			"url": "http://localhost:8080/products/delete/4",
+			"time": 53,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "c0304c07-f787-40a4-9f34-f49382bb6a50",
+			"name": "LIST ALL Products",
+			"url": "http://localhost:8080/products",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "483d0c9d-d183-4597-8ce4-4386a36b69a1",
+			"name": "DELETE City [id:2]",
+			"url": "http://localhost:8080/cities/delete/2",
+			"time": 35,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "6dc7ad4c-af9a-4938-9a14-576df0c91a4e",
+			"name": "FIND City BY id [2]",
+			"url": "http://localhost:8080/cities/id/2",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "1be6ea6b-63e3-4c2a-8402-18883fce2ecc",
+			"name": "UPDATE City [id:2- name]",
+			"url": "http://localhost:8080/cities/update",
+			"time": 26,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "5a3f4315-d215-4f5f-b2b3-081f1cde9cfc",
+			"name": "RE - DELETE City [id:2]",
+			"url": "http://localhost:8080/cities/delete/2",
+			"time": 23,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "04cede0f-4937-4b5f-a898-5b99138cd622",
+			"name": "DELETE City [id:1]",
+			"url": "http://localhost:8080/cities/delete/1",
+			"time": 46,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "c932e189-e1f8-419a-b3fc-96dce1407341",
+			"name": "DELETE City [id:3]",
+			"url": "http://localhost:8080/cities/delete/3",
+			"time": 44,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "cd13c185-1547-465e-8e12-32ba9bc8976a",
+			"name": "DELETE City [id:4]",
+			"url": "http://localhost:8080/cities/delete/4",
+			"time": 59,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "e965a922-071d-4bac-864b-7dc6d4de7db2",
+			"name": "LIST ALL Cities",
+			"url": "http://localhost:8080/cities",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "c1349b3c-6f42-48ca-9c3f-29aab2de9023",
+			"name": "DELETE Category [id:1]",
+			"url": "http://localhost:8080/categories/delete/1",
+			"time": 59,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "f799c315-91d8-4551-ab3a-27b8a3ac4430",
+			"name": "FIND Category BY id [1]",
+			"url": "http://localhost:8080/categories/id/1",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "f78434a0-ac51-43a6-9404-063e3c9e362d",
+			"name": "UPDATE Category [id:1-urlImagen]",
+			"url": "http://localhost:8080/categories/update",
+			"time": 26,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"STATUS CODE: 404": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 404": true
+				}
+			]
+		},
+		{
+			"id": "3ec0c913-5832-4953-ac92-7a0eddccab02",
+			"name": "RE - DELETE Category [id:1]",
+			"url": "http://localhost:8080/categories/delete/1",
+			"time": 29,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "7d5b2581-5a26-4de6-b4b9-de9ee8b2ba36",
+			"name": "DELETE Category [id:2]",
+			"url": "http://localhost:8080/categories/delete/2",
+			"time": 44,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "eacfa4fe-f5df-4d54-9f31-f48f0f459a72",
+			"name": "DELETE Category [id:3]",
+			"url": "http://localhost:8080/categories/delete/3",
+			"time": 54,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "a124873f-c347-41ce-b22b-920210cb1b91",
+			"name": "DELETE Category [id:4]",
+			"url": "http://localhost:8080/categories/delete/4",
+			"time": 49,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				49
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "7a69dfba-b017-40a1-b376-c112a48f4e55",
+			"name": "LIST ALL Categories",
+			"url": "http://localhost:8080/categories",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4575,
+	"collection": {
+		"requests": [
+			{
+				"id": "ccf4f356-f951-4215-bc0a-00d6b7fb30b5",
+				"method": "POST"
+			},
+			{
+				"id": "bb133314-ac8f-45d5-b192-c832b5bdf3ff",
+				"method": "POST"
+			},
+			{
+				"id": "042cdd93-58e6-47c3-86a6-d2742479a858",
+				"method": "POST"
+			},
+			{
+				"id": "809f5b9e-674f-450e-8fd1-6b485901e446",
+				"method": "POST"
+			},
+			{
+				"id": "62056e1e-f9f4-4881-af8c-4dae68d1bf36",
+				"method": "POST"
+			},
+			{
+				"id": "1ee39110-8010-45ab-94a0-1b3956aea4a5",
+				"method": "GET"
+			},
+			{
+				"id": "fdbe6875-d383-4353-b66b-045d13746eb1",
+				"method": "GET"
+			},
+			{
+				"id": "58f78f4e-b3ae-49af-a7e0-b0f8138bb54a",
+				"method": "GET"
+			},
+			{
+				"id": "5b13e500-0c95-421f-b473-80cd506540f2",
+				"method": "PUT"
+			},
+			{
+				"id": "11f66349-3a69-455c-8b5e-4a1fc77cb33c",
+				"method": "POST"
+			},
+			{
+				"id": "4679c36a-7cf5-479f-ad2c-5dac420fc4bf",
+				"method": "POST"
+			},
+			{
+				"id": "04b8ab5b-600e-43c7-91ef-c3d6c27133e3",
+				"method": "POST"
+			},
+			{
+				"id": "ccf943b8-1041-45c0-ae4f-8c60fb027959",
+				"method": "POST"
+			},
+			{
+				"id": "070c0e01-a1b1-4a34-9bb5-636bd6864acc",
+				"method": "POST"
+			},
+			{
+				"id": "aa763f5a-2bb8-4eaa-bd83-c9d25d931a0d",
+				"method": "GET"
+			},
+			{
+				"id": "114f6e81-3fb9-43b3-a601-655b9f690017",
+				"method": "GET"
+			},
+			{
+				"id": "90bd706f-3ae0-44f5-9cc4-c1d396987986",
+				"method": "GET"
+			},
+			{
+				"id": "98037dd2-a18e-45cd-bd5d-5973ac00d543",
+				"method": "PUT"
+			},
+			{
+				"id": "03f2a45a-a5bf-4eae-85be-c15c03078afd",
+				"method": "POST"
+			},
+			{
+				"id": "a5a55e6a-2681-436d-b2d7-823a88f2acc9",
+				"method": "POST"
+			},
+			{
+				"id": "302c2ae8-a640-4916-a14f-1e3c1c87489d",
+				"method": "POST"
+			},
+			{
+				"id": "15d7cb68-d510-4f82-a84d-cd8eb89f3296",
+				"method": "POST"
+			},
+			{
+				"id": "b42a6826-33c5-465c-82ca-3026acdbb3a3",
+				"method": "POST"
+			},
+			{
+				"id": "88b405b9-f429-4c4d-a3a0-d32eac60948a",
+				"method": "GET"
+			},
+			{
+				"id": "40909705-39d6-46b0-b08e-c39c622e8ae9",
+				"method": "GET"
+			},
+			{
+				"id": "3b29ebc5-59c0-4093-80f6-88803789a6d3",
+				"method": "GET"
+			},
+			{
+				"id": "1f523eff-c2de-45cb-a34e-5505adc674c7",
+				"method": "PUT"
+			},
+			{
+				"id": "61bfe948-2db3-4be4-ac91-c7e0fca54c35",
+				"method": "POST"
+			},
+			{
+				"id": "2c2f09fd-488c-42ae-a0b9-39f3971866f0",
+				"method": "POST"
+			},
+			{
+				"id": "8500d53c-9c1d-4ed5-9a36-7391be99f4d9",
+				"method": "POST"
+			},
+			{
+				"id": "c09f24c6-19e5-450e-896a-3972d0d4a84b",
+				"method": "POST"
+			},
+			{
+				"id": "f2027763-45f0-4f77-ad84-73dbff87a41d",
+				"method": "POST"
+			},
+			{
+				"id": "d1403579-2676-4682-aca0-84a91a42f060",
+				"method": "POST"
+			},
+			{
+				"id": "ab4ee4f3-94ff-4b52-906b-cd4130e16aad",
+				"method": "GET"
+			},
+			{
+				"id": "d8ef784f-c823-4ce5-b6be-e685cd9fad75",
+				"method": "GET"
+			},
+			{
+				"id": "004afb54-a9f1-4585-9944-1c376a7f2f27",
+				"method": "PUT"
+			},
+			{
+				"id": "c1e6f566-97bb-4c3d-bdb7-b80b0b745037",
+				"method": "POST"
+			},
+			{
+				"id": "dc1578d8-8e6d-4c5c-8860-d08138837482",
+				"method": "POST"
+			},
+			{
+				"id": "12431124-0586-4664-851a-ea7bb6b24876",
+				"method": "POST"
+			},
+			{
+				"id": "21bb2b1f-9c5e-4254-a6c3-d47c7cb2a436",
+				"method": "POST"
+			},
+			{
+				"id": "31e04356-d527-49df-aada-040d1defc755",
+				"method": "POST"
+			},
+			{
+				"id": "9d0b7a3e-f1ed-4c8e-9bbe-c3ebd21f33b2",
+				"method": "GET"
+			},
+			{
+				"id": "5a1ecd38-177b-4f38-a243-5be7b6f8ec81",
+				"method": "GET"
+			},
+			{
+				"id": "a88bdc5d-8123-47a2-904b-d3a0560af6d0",
+				"method": "PUT"
+			},
+			{
+				"id": "50b27be5-627e-43be-8d31-aa87bac0bea1",
+				"method": "DELETE"
+			},
+			{
+				"id": "e5a00749-99ff-43ce-a5c6-65f1574aeb26",
+				"method": "GET"
+			},
+			{
+				"id": "8d4a9d6c-39d6-470d-ab4c-84072612bd14",
+				"method": "PUT"
+			},
+			{
+				"id": "976c1f94-122b-4fb5-b5e1-caef95fc1572",
+				"method": "DELETE"
+			},
+			{
+				"id": "b5a805f1-febd-4268-b8d7-d58781d4cd2e",
+				"method": "DELETE"
+			},
+			{
+				"id": "0e9f80c8-f048-451b-88e2-4b8e18bd6bb7",
+				"method": "DELETE"
+			},
+			{
+				"id": "8abb0900-07d1-44ef-beab-ca1f2980b782",
+				"method": "DELETE"
+			},
+			{
+				"id": "2701a355-a2fa-487d-9052-efa680d1a63c",
+				"method": "GET"
+			},
+			{
+				"id": "ba38cbba-34d1-40f7-89f2-ff0c3c1fb0b6",
+				"method": "DELETE"
+			},
+			{
+				"id": "2ed6d76f-dad8-4e07-8fa9-53a6e4f659f8",
+				"method": "GET"
+			},
+			{
+				"id": "4388cbd7-811c-431e-885d-6a066257983d",
+				"method": "PUT"
+			},
+			{
+				"id": "81b5046b-1208-4f9c-818a-44e67cfe094b",
+				"method": "DELETE"
+			},
+			{
+				"id": "4124d6e3-ac4f-4c3b-8af8-6a94bf6a509b",
+				"method": "DELETE"
+			},
+			{
+				"id": "7ddc3c19-6297-4ba3-a12a-4e64278321c6",
+				"method": "DELETE"
+			},
+			{
+				"id": "fc1dfd03-4ce9-47a4-a8b9-5885b2708ef9",
+				"method": "DELETE"
+			},
+			{
+				"id": "7a574091-1228-46ba-8194-3dda8fc8b85b",
+				"method": "DELETE"
+			},
+			{
+				"id": "c320a50e-7ead-446c-b9d2-cb9c17881022",
+				"method": "DELETE"
+			},
+			{
+				"id": "666cda2a-6280-41ca-a00c-cc4d6e54666e",
+				"method": "GET"
+			},
+			{
+				"id": "18e89786-e3a9-467f-bdd1-1958b4af9e01",
+				"method": "DELETE"
+			},
+			{
+				"id": "bb08c891-80c3-48ef-8547-4994b62a11e4",
+				"method": "GET"
+			},
+			{
+				"id": "022fb89f-cf82-461e-a7cb-9a009aadee74",
+				"method": "PUT"
+			},
+			{
+				"id": "852fede9-3b92-4f2d-9103-596746cc46af",
+				"method": "DELETE"
+			},
+			{
+				"id": "760b5229-3009-44ba-a00f-e0e29a032416",
+				"method": "DELETE"
+			},
+			{
+				"id": "aeccaa90-400e-4d7e-97d8-18487aa5e260",
+				"method": "DELETE"
+			},
+			{
+				"id": "147c40cd-325e-4326-90b0-23f53d05e1a0",
+				"method": "DELETE"
+			},
+			{
+				"id": "c0304c07-f787-40a4-9f34-f49382bb6a50",
+				"method": "GET"
+			},
+			{
+				"id": "483d0c9d-d183-4597-8ce4-4386a36b69a1",
+				"method": "DELETE"
+			},
+			{
+				"id": "6dc7ad4c-af9a-4938-9a14-576df0c91a4e",
+				"method": "GET"
+			},
+			{
+				"id": "1be6ea6b-63e3-4c2a-8402-18883fce2ecc",
+				"method": "PUT"
+			},
+			{
+				"id": "5a3f4315-d215-4f5f-b2b3-081f1cde9cfc",
+				"method": "DELETE"
+			},
+			{
+				"id": "04cede0f-4937-4b5f-a898-5b99138cd622",
+				"method": "DELETE"
+			},
+			{
+				"id": "c932e189-e1f8-419a-b3fc-96dce1407341",
+				"method": "DELETE"
+			},
+			{
+				"id": "cd13c185-1547-465e-8e12-32ba9bc8976a",
+				"method": "DELETE"
+			},
+			{
+				"id": "e965a922-071d-4bac-864b-7dc6d4de7db2",
+				"method": "GET"
+			},
+			{
+				"id": "c1349b3c-6f42-48ca-9c3f-29aab2de9023",
+				"method": "DELETE"
+			},
+			{
+				"id": "f799c315-91d8-4551-ab3a-27b8a3ac4430",
+				"method": "GET"
+			},
+			{
+				"id": "f78434a0-ac51-43a6-9404-063e3c9e362d",
+				"method": "PUT"
+			},
+			{
+				"id": "3ec0c913-5832-4953-ac92-7a0eddccab02",
+				"method": "DELETE"
+			},
+			{
+				"id": "7d5b2581-5a26-4de6-b4b9-de9ee8b2ba36",
+				"method": "DELETE"
+			},
+			{
+				"id": "eacfa4fe-f5df-4d54-9f31-f48f0f459a72",
+				"method": "DELETE"
+			},
+			{
+				"id": "a124873f-c347-41ce-b22b-920210cb1b91",
+				"method": "DELETE"
+			},
+			{
+				"id": "7a69dfba-b017-40a1-b376-c112a48f4e55",
+				"method": "GET"
+			}
+		]
+	}
+}

@@ -1,0 +1,401 @@
+{
+	"id": "30d97ce0-9d2d-49c6-9e9c-cb58a0188b47",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-11-27T02:06:22.888Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-8fc89683-50c0-45da-8560-b85f91c0a047",
+	"environment_id": "0",
+	"totalPass": 18,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "7824a51e-edcb-4353-8297-64c215348ba3",
+			"name": "ADD Product [Cabañas Peuma]",
+			"url": "http://localhost:8080/products/register",
+			"time": 132,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				132
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "d91fdbef-b5cd-4177-a523-369417499b1e",
+			"name": "ADD Product [Cabañas del Sol]",
+			"url": "http://localhost:8080/products/register",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "ff4ff233-c77b-47b5-9c23-1182888cbbc0",
+			"name": "ADD Product [Norway]",
+			"url": "http://localhost:8080/products/register",
+			"time": 42,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				42
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "ad03d766-5823-4fd3-a318-37343714e826",
+			"name": "ADD Product [Las Lomitas]",
+			"url": "http://localhost:8080/products/register",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Products entity": true
+				}
+			]
+		},
+		{
+			"id": "120e4385-e0e6-4410-b6f3-8fb69b2ef426",
+			"name": "RE - ADD Product [Cabañas Peuma]",
+			"url": "http://localhost:8080/products/register",
+			"time": 64,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				64
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "7d7e9664-fe92-4b14-9c6a-4217a10ac042",
+			"name": "LIST ALL Products",
+			"url": "http://localhost:8080/products/",
+			"time": 99,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				99
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "96181d20-cc81-42d3-b0bc-10dbc9eec00d",
+			"name": "FIND Product BY id [1]",
+			"url": "http://localhost:8080/products/id/1",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The product was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The product was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The product was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "7fe600d9-2458-4df8-99c1-25400183f152",
+			"name": "FIND Product BY name [Norway]",
+			"url": "http://localhost:8080/products/Norway",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The product was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The product was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The product was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "a68eea4a-f51e-45ba-a85d-8ade89474429",
+			"name": "FIND Product BY date [2021-12-02,2021-12-17]",
+			"url": "http://localhost:8080/products/available/dates?arrival=2021-12-17&departure=2021-12-19",
+			"time": 124,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				124
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "a98cefde-cd5b-40db-840c-f16ac8b6e092",
+			"name": "FIND Product BY availability",
+			"url": "http://localhost:8080/products/available?arrival=2021-12-15&city=Buenos%20Aires&departure=2021-12-16",
+			"time": 60,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				60
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "a17a7099-9343-4aa5-bb98-d957efd79fc9",
+			"name": "UPDATE Product [id:3-latitude]",
+			"url": "http://localhost:8080/products/update",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Products entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Products entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Products entity": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 750,
+	"collection": {
+		"requests": [
+			{
+				"id": "7824a51e-edcb-4353-8297-64c215348ba3",
+				"method": "POST"
+			},
+			{
+				"id": "d91fdbef-b5cd-4177-a523-369417499b1e",
+				"method": "POST"
+			},
+			{
+				"id": "ff4ff233-c77b-47b5-9c23-1182888cbbc0",
+				"method": "POST"
+			},
+			{
+				"id": "ad03d766-5823-4fd3-a318-37343714e826",
+				"method": "POST"
+			},
+			{
+				"id": "120e4385-e0e6-4410-b6f3-8fb69b2ef426",
+				"method": "POST"
+			},
+			{
+				"id": "7d7e9664-fe92-4b14-9c6a-4217a10ac042",
+				"method": "GET"
+			},
+			{
+				"id": "96181d20-cc81-42d3-b0bc-10dbc9eec00d",
+				"method": "GET"
+			},
+			{
+				"id": "7fe600d9-2458-4df8-99c1-25400183f152",
+				"method": "GET"
+			},
+			{
+				"id": "a68eea4a-f51e-45ba-a85d-8ade89474429",
+				"method": "GET"
+			},
+			{
+				"id": "a98cefde-cd5b-40db-840c-f16ac8b6e092",
+				"method": "GET"
+			},
+			{
+				"id": "a17a7099-9343-4aa5-bb98-d957efd79fc9",
+				"method": "PUT"
+			}
+		]
+	}
+}

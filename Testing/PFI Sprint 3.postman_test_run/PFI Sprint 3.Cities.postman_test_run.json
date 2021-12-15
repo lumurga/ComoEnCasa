@@ -1,0 +1,339 @@
+{
+	"id": "648604ae-1c60-4939-a9b6-801dd2de310e",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-11-27T02:05:54.398Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-e6598507-f861-4f15-86bd-a41da242338b",
+	"environment_id": "0",
+	"totalPass": 16,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ef043d55-9f9c-4526-9099-8d07b587db5c",
+			"name": "ADD City [BsAs]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "46e0fe08-a256-4142-9494-93d5f6b129fc",
+			"name": "ADD City [Rosario]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "7ab9be9d-97f6-4cd7-bd91-642f06090b6a",
+			"name": "ADD City [VLA]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "66a15b96-cfbc-40c3-854f-881ae7a8b6d3",
+			"name": "ADD City [P.Madryn]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Cities entity": true
+				}
+			]
+		},
+		{
+			"id": "e66c84e7-70bc-430f-afd8-077934bec12a",
+			"name": "RE - ADD City [BsAs]",
+			"url": "http://localhost:8080/cities/register",
+			"time": 33,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				33
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "f1849acc-6965-438c-9fcf-3e75a5237b41",
+			"name": "LIST ALL Cities",
+			"url": "http://localhost:8080/cities",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "98f7bc0a-a580-4249-960e-3382a741036a",
+			"name": "FIND City BY id [1]",
+			"url": "http://localhost:8080/cities/id/1",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The city was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The city was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The city was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "32b33877-4892-4aa2-ae64-4b406603f56a",
+			"name": "FIND City BY titulo [Rosario]",
+			"url": "http://localhost:8080/cities/Rosario",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The city was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The city was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The city was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "a18da8be-9ad7-4a33-a36b-6a37bdc89999",
+			"name": "UPDATE City [id:4 - name]",
+			"url": "http://localhost:8080/cities/update",
+			"time": 50,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Cities entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Cities entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				50
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Cities entity": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 385,
+	"collection": {
+		"requests": [
+			{
+				"id": "ef043d55-9f9c-4526-9099-8d07b587db5c",
+				"method": "POST"
+			},
+			{
+				"id": "46e0fe08-a256-4142-9494-93d5f6b129fc",
+				"method": "POST"
+			},
+			{
+				"id": "7ab9be9d-97f6-4cd7-bd91-642f06090b6a",
+				"method": "POST"
+			},
+			{
+				"id": "66a15b96-cfbc-40c3-854f-881ae7a8b6d3",
+				"method": "POST"
+			},
+			{
+				"id": "e66c84e7-70bc-430f-afd8-077934bec12a",
+				"method": "POST"
+			},
+			{
+				"id": "f1849acc-6965-438c-9fcf-3e75a5237b41",
+				"method": "GET"
+			},
+			{
+				"id": "98f7bc0a-a580-4249-960e-3382a741036a",
+				"method": "GET"
+			},
+			{
+				"id": "32b33877-4892-4aa2-ae64-4b406603f56a",
+				"method": "GET"
+			},
+			{
+				"id": "a18da8be-9ad7-4a33-a36b-6a37bdc89999",
+				"method": "PUT"
+			}
+		]
+	}
+}

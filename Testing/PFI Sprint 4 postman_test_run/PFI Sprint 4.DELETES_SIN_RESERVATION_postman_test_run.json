@@ -1,0 +1,824 @@
+{
+	"id": "6478033e-9ee5-4df2-bf48-e071b0e29421",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-12-10T02:27:42.574Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-549b9a81-f2b1-41aa-b00e-f2de7e0b3fb0",
+	"environment_id": "0",
+	"totalPass": 26,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "736a6c0e-b8a4-4680-8186-9e835c34e274",
+			"name": "DELETE Product [id:3]",
+			"url": "http://localhost:8080/products/delete/3",
+			"time": 137,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				137
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "3d402204-ba7c-4d6f-9897-830974cba9c0",
+			"name": "FIND Product BY id [3]",
+			"url": "http://localhost:8080/products/id/3",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "58dcf08b-36ac-4a01-8eda-17ad0da4c3bf",
+			"name": "DELETE Product [id:1]",
+			"url": "http://localhost:8080/products/delete/1",
+			"time": 66,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "b0a7ba5b-128f-41a8-af5d-3ff8c747bd0d",
+			"name": "DELETE Product [id:2]",
+			"url": "http://localhost:8080/products/delete/2",
+			"time": 51,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				51
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "2867381f-1e9e-48f8-b283-46c7c7f40f71",
+			"name": "DELETE Product [id:4]",
+			"url": "http://localhost:8080/products/delete/4",
+			"time": 68,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				68
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "f5041fbd-a6a8-4a67-8966-41204f7218c8",
+			"name": "LIST ALL Products",
+			"url": "http://localhost:8080/products",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "0a87fce6-c07f-4d0c-bab2-b53b160b748e",
+			"name": "DELETE Feature [id:1]",
+			"url": "http://localhost:8080/features/delete/1",
+			"time": 38,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "8ca56373-8c04-4813-a6fa-f6946ff8575b",
+			"name": "FIND Feature BY id [1]",
+			"url": "http://localhost:8080/features/id/1",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "fa2690c7-aec6-42a3-9f0f-f1a13142c193",
+			"name": "DELETE Feature [id:2]",
+			"url": "http://localhost:8080/features/delete/2",
+			"time": 43,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "ba523d4e-1dab-4268-9d40-7319cc77029d",
+			"name": "DELETE Feature [id:3]",
+			"url": "http://localhost:8080/features/delete/3",
+			"time": 34,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "cf2bd533-a4df-4ade-aeb6-71d9bf4e2b01",
+			"name": "DELETE Feature [id:4]",
+			"url": "http://localhost:8080/features/delete/4",
+			"time": 38,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "6c09e87e-da29-44a6-89ed-1519b79cc110",
+			"name": "DELETE Feature [id:5]",
+			"url": "http://localhost:8080/features/delete/5",
+			"time": 42,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				42
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "7ea16b70-6a2c-4c64-bf34-6c1e8d61e344",
+			"name": "DELETE Feature [id:6]",
+			"url": "http://localhost:8080/features/delete/6",
+			"time": 41,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				41
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "cc70cc3a-51e7-4e4b-adc2-7992acd2ea75",
+			"name": "LIST ALL Features",
+			"url": "http://localhost:8080/features",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "410cf7e5-5d3e-4e98-92e9-ca5ff2704eb3",
+			"name": "DELETE City [id:2]",
+			"url": "http://localhost:8080/cities/delete/2",
+			"time": 38,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "ff6e3526-0243-453f-b8fb-66bfd3a81576",
+			"name": "FIND City BY id [2]",
+			"url": "http://localhost:8080/cities/id/2",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "6676b535-dc38-4470-b06c-b830250db4f0",
+			"name": "DELETE City [id:1]",
+			"url": "http://localhost:8080/cities/delete/1",
+			"time": 44,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "833835d5-5e7b-46f9-a032-b27a2780ab32",
+			"name": "DELETE City [id:3]",
+			"url": "http://localhost:8080/cities/delete/3",
+			"time": 39,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				39
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "402a0234-8681-4185-a175-e0d1e73cffac",
+			"name": "DELETE City [id:4]",
+			"url": "http://localhost:8080/cities/delete/4",
+			"time": 35,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status test": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status test": true
+				}
+			]
+		},
+		{
+			"id": "f4aa3bf0-4ab8-4105-8e1f-45f0a195f290",
+			"name": "LIST ALL Cities",
+			"url": "http://localhost:8080/cities",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "1f7b7e87-10d4-4d64-bde4-87b87189f903",
+			"name": "DELETE Category [id:1]",
+			"url": "http://localhost:8080/categories/delete/1",
+			"time": 41,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				41
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "dae9c454-a382-4ad1-8e1f-e3c57a6bb1f5",
+			"name": "FIND Category BY id [1]",
+			"url": "http://localhost:8080/categories/id/1",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "deafce9e-03b9-4a53-ba67-3beaf9e95d06",
+			"name": "DELETE Category [id:2]",
+			"url": "http://localhost:8080/categories/delete/2",
+			"time": 37,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "b4cada4d-e81d-4c6b-8d56-6582bee29c2a",
+			"name": "DELETE Category [id:3]",
+			"url": "http://localhost:8080/categories/delete/3",
+			"time": 38,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "fdd9210b-82f8-4466-825c-376acd10b76b",
+			"name": "DELETE Category [id:4]",
+			"url": "http://localhost:8080/categories/delete/4",
+			"time": 48,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"STATUS CODE: 204": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 204": true
+				}
+			]
+		},
+		{
+			"id": "3afc433f-f439-4902-8a33-4b3adbf41b37",
+			"name": "LIST ALL Categories",
+			"url": "http://localhost:8080/categories",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1069,
+	"collection": {
+		"requests": [
+			{
+				"id": "736a6c0e-b8a4-4680-8186-9e835c34e274",
+				"method": "DELETE"
+			},
+			{
+				"id": "3d402204-ba7c-4d6f-9897-830974cba9c0",
+				"method": "GET"
+			},
+			{
+				"id": "58dcf08b-36ac-4a01-8eda-17ad0da4c3bf",
+				"method": "DELETE"
+			},
+			{
+				"id": "b0a7ba5b-128f-41a8-af5d-3ff8c747bd0d",
+				"method": "DELETE"
+			},
+			{
+				"id": "2867381f-1e9e-48f8-b283-46c7c7f40f71",
+				"method": "DELETE"
+			},
+			{
+				"id": "f5041fbd-a6a8-4a67-8966-41204f7218c8",
+				"method": "GET"
+			},
+			{
+				"id": "0a87fce6-c07f-4d0c-bab2-b53b160b748e",
+				"method": "DELETE"
+			},
+			{
+				"id": "8ca56373-8c04-4813-a6fa-f6946ff8575b",
+				"method": "GET"
+			},
+			{
+				"id": "fa2690c7-aec6-42a3-9f0f-f1a13142c193",
+				"method": "DELETE"
+			},
+			{
+				"id": "ba523d4e-1dab-4268-9d40-7319cc77029d",
+				"method": "DELETE"
+			},
+			{
+				"id": "cf2bd533-a4df-4ade-aeb6-71d9bf4e2b01",
+				"method": "DELETE"
+			},
+			{
+				"id": "6c09e87e-da29-44a6-89ed-1519b79cc110",
+				"method": "DELETE"
+			},
+			{
+				"id": "7ea16b70-6a2c-4c64-bf34-6c1e8d61e344",
+				"method": "DELETE"
+			},
+			{
+				"id": "cc70cc3a-51e7-4e4b-adc2-7992acd2ea75",
+				"method": "GET"
+			},
+			{
+				"id": "410cf7e5-5d3e-4e98-92e9-ca5ff2704eb3",
+				"method": "DELETE"
+			},
+			{
+				"id": "ff6e3526-0243-453f-b8fb-66bfd3a81576",
+				"method": "GET"
+			},
+			{
+				"id": "6676b535-dc38-4470-b06c-b830250db4f0",
+				"method": "DELETE"
+			},
+			{
+				"id": "833835d5-5e7b-46f9-a032-b27a2780ab32",
+				"method": "DELETE"
+			},
+			{
+				"id": "402a0234-8681-4185-a175-e0d1e73cffac",
+				"method": "DELETE"
+			},
+			{
+				"id": "f4aa3bf0-4ab8-4105-8e1f-45f0a195f290",
+				"method": "GET"
+			},
+			{
+				"id": "1f7b7e87-10d4-4d64-bde4-87b87189f903",
+				"method": "DELETE"
+			},
+			{
+				"id": "dae9c454-a382-4ad1-8e1f-e3c57a6bb1f5",
+				"method": "GET"
+			},
+			{
+				"id": "deafce9e-03b9-4a53-ba67-3beaf9e95d06",
+				"method": "DELETE"
+			},
+			{
+				"id": "b4cada4d-e81d-4c6b-8d56-6582bee29c2a",
+				"method": "DELETE"
+			},
+			{
+				"id": "fdd9210b-82f8-4466-825c-376acd10b76b",
+				"method": "DELETE"
+			},
+			{
+				"id": "3afc433f-f439-4902-8a33-4b3adbf41b37",
+				"method": "GET"
+			}
+		]
+	}
+}

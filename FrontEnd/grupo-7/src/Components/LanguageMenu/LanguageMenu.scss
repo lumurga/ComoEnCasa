@@ -1,0 +1,107 @@
+@import "../../Styles/Variables/colors";
+
+/* Dropdown Button */
+.dropbtn {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border: none;
+  gap: 0.5rem;
+  color: $color-grey-4;
+
+  background-color: $color-white-2;
+  padding: 1.5px;
+  border-radius: 3px;
+
+  &:hover {
+    background: $color-brown-3;
+  }
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  color: $color-grey-4;
+  min-width: 130px;
+  padding-top: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+// .dropdown-content button {
+//   color: black;
+//   text-decoration: none;
+//   display: flex;
+//   justify-content: flex-start;
+// }
+
+/* Change color of dropdown links on hover */
+// .dropdown-content button:hover {
+//   background-color: #ddd;
+// }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.countryFlagsContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 80%;
+  gap: 0.5rem;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: $color-grey-4;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.2rem;
+
+  &:hover {
+    background: $color-green-2;
+  }
+}
+
+.languagesMenuDesktop {
+  display: flex;
+  gap: 20px;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    color: $color-grey-4;
+    background-color: $color-white-2;
+    padding: 1.5px;
+    border-radius: 3px;
+
+    &:hover {
+      background: $color-brown-3;
+    }
+
+  }
+}
+
+@media (max-width: 428px) {
+  .dropdown-content {
+    right: -5px;
+  }
+
+  .countryFlagsContainer {
+    justify-content: flex-end;
+    padding-right: 3px;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../Styles/Variables/colors";
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .imagenContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}

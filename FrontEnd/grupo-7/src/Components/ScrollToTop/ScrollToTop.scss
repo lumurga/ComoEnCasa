@@ -1,0 +1,46 @@
+@import "../../Styles/Variables/colors";
+
+.scrollButton {
+  display: flex;
+  position: fixed;
+  bottom: 10vh;
+  right: 2vw;
+  width: 3vw;
+  height: 3vw;
+  z-index: 10;
+  
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+
+  background: $color-mustard-1;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: $shadow-black-1;
+
+  button {
+    color: $color-white-1;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    background: $color-brown-1;
+  }
+}
+
+@media (max-width: 768px) {
+  .scrollButton {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+@media (max-width: 414px) {
+  .scrollButton {
+    width: 5vh;
+    height: 5vh;
+  }
+}

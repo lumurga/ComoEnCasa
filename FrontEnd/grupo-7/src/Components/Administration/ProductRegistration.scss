@@ -1,0 +1,421 @@
+@import "../../Styles/Variables/colors";
+
+
+h2#regist {
+    color: $color-grey-4;
+    width: 90%;
+    font-weight: bold;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+}
+
+
+#formRegisterProduct {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 90%;
+    margin-bottom: 3vh;
+
+    background-color: $color-white-1;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 2px 4px $shadow-black-1;
+
+    padding: 3vh 2.5rem 3vh;
+
+    .detailContainer {
+
+        width: 100%;
+        padding-bottom: 3vh;
+
+        color: $color-grey-4;
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        h5 {
+            color: red;
+        }
+        
+
+        .registProductGroup {
+            width: 47%;
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 1rem;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            label {
+                width: 100%;
+                padding: 0;
+                margin: 0;
+        
+                margin-bottom: 9px;
+        
+                text-align: left;
+                font-weight: 500;
+                font-size: 15px;
+            }
+
+            input, select {
+              padding-left: 0.5rem;
+              margin-bottom: 0.5rem;
+              align-self: flex-start;
+
+              width: 100%;
+              height: 35px;
+
+              background-color: $color-white-1;
+    
+              border: none;
+              border-radius: 5px;
+              box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+    
+              &:required {
+                background-color: $color-white-1;
+              }
+            }
+
+            select {
+                &[disabled],
+                &:disabled {
+                  cursor: not-allowed;
+                }
+        
+                &:not(:focus):invalid {
+                  color: grey;
+                }
+              }
+
+        }
+
+        div#descriptionContainer {
+            width: 100%;
+
+            textarea {
+                width: 100%;
+                display: flex;
+                border: none;
+                font-size: small;
+                border-radius: 5px;
+                background-color: $color-white-1;
+                box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+                padding-left: 0.5rem;
+                padding-top: 0.2rem;
+                resize: none;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        div#scoreContainer,
+        div#nightPriceContainer {
+            width: 48%;
+            
+            input {
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .featuresContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        h5 {
+            color: red;
+        }
+        
+
+        label{
+            display: inline-block;
+            width: 30%;
+            height: 35px;
+            color: $color-grey-4;
+        }
+
+        input {
+            margin-right: 10px;
+            -ms-transform: scale(1.5); /* IE */
+            -moz-transform: scale(1.5); /* FF */
+            -webkit-transform: scale(1.5); /* Safari y Chrome */
+            -o-transform: scale(1.5); /* Opera */
+        }
+
+        h3 {
+            width: 100%;
+            font-weight: bold;
+            color: $color-grey-4;
+            padding-bottom: 1rem;
+        }
+
+
+    }
+
+    .policiesContainer {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        h5 {
+            color: red;
+        }
+        
+
+        h3 {
+            width: 100%;
+            font-weight: bold;
+            color: $color-grey-4;
+            padding-bottom: 1rem;
+        }
+
+        h4 {
+            font-weight: bold;
+            padding-bottom: 0.5rem;
+        }
+
+        label {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+    
+            margin-bottom: 9px;
+    
+            text-align: left;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        & > div {
+
+            color: $color-grey-4;
+            padding: 1rem 1rem 0 1rem;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            border-radius: 10px;
+            box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+
+            .registProductGroup {
+                width: 30%;
+                display: flex;
+                flex-wrap: wrap;
+                padding-bottom: 1rem;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                textarea {
+                    width: 100%;
+                    display: flex;
+                    border: none;
+                    font-size: small;
+                    border-radius: 5px;
+                    background-color: $color-white-1;
+                    box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+                    padding-left: 0.5rem;
+                    padding-top: 0.2rem;
+                    resize: none;
+                    margin-bottom: 0.5rem;
+                }
+    
+            }
+        }
+    }
+
+    .addImagesContainer {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 5vh;
+
+        h5 {
+            color: red;
+        }
+        
+
+        h3 {
+            width: 100%;
+            font-weight: bold;
+            color: $color-grey-4;
+            padding-bottom: 1rem;
+        }
+
+        .addButton { 
+            width: 10%;
+            height: 25px;
+            border: none;
+            border-radius: 5px;
+            background-color: $color-brown-1;
+            color: $color-white-1;
+            font-weight: 500;
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+        }
+
+
+        .img {
+
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            & > div {
+
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                input {
+                    width: 56%;
+                    height: 35px;
+                    padding-left: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    background-color: $color-white-1;
+                    border: none;
+                    border-radius: 5px;
+                    box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+                }
+
+                input.imgTitle {
+                    width: 30%;
+                }
+    
+    
+                .remove {
+                    width: 5%;
+                    height: 35px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    background-color: rgb(168, 49, 49);
+                    color: $color-white-1;
+                    cursor: pointer;
+    
+                }
+    
+                .add{
+                    width: 5%;
+                    height: 35px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    background-color: $color-brown-1;
+                    color: $color-white-1;
+                    cursor: pointer;
+    
+                    .fa-plus {
+                        height: 10px;
+                    }
+                }
+
+            }
+
+            
+        }
+
+        
+    }
+
+    .buttonGroup{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+     
+        .productSubmit {
+            width: 30%;
+            height: 50px;
+            border: none;
+            border-radius: 5px;
+            background-color: $color-brown-1;
+            color: $color-white-1;
+            font-weight: 700;
+            font-size: large;
+            cursor: pointer;
+      
+            &:hover {
+              background-color: $color-white-1;
+              color: $color-brown-1;
+              border: solid 1.5px $color-brown-1;
+            }
+        }
+    }
+}
+
+@media (max-width:820px){
+
+    #formRegisterProduct {
+
+        width: 93%;
+        padding: 2vh 1.5rem 3vh;
+
+        .featuresContainer {
+            label{
+                width: 50%;
+            }
+    
+            input {
+                -ms-transform: scale(1); /* IE */
+                -moz-transform: scale(1); /* FF */
+                -webkit-transform: scale(1); /* Safari y Chrome */
+                -o-transform: scale(1); /* Opera */
+            }
+        }
+
+        .policiesContainer {
+
+            & > div {
+    
+                .registProductGroup {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-bottom: 1rem;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                }
+            }
+    
+        }
+        
+    }
+    
+}
+
+@media (max-width: 428px){
+
+    #formRegisterProduct {
+        
+        .detailContainer {
+    
+            .registProductGroup {
+                width: 100%;
+            }
+        }
+
+        .featuresContainer {
+            label{
+                width: 100%;
+            }
+        }
+
+        .buttonGroup{
+            .productSubmit {
+                width: 50%;
+                height: 50px;
+                font-weight: 500;
+                font-size: medium;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,71 @@
+[
+    {
+        "id":"1",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "playa",
+        "title": "Cabaña",
+        "location":"Las Grutas, Río Negro",
+        "description": "Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña",
+        "caracteristicas": {
+            "pileta" : true,
+            "wifi": true
+        },
+        "disponibilidad": ""
+    },
+    {
+        "id":"2",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "playa",
+        "title": "Departamento",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña"
+    },
+    {
+        "id":"3",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "montaña",
+        "title": "Casa",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña."
+    },
+    {
+        "id":"4",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "montaña",
+        "title": "Departamento",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña."
+    },
+    {
+        "id":"5",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "ciudad",
+        "title": "Cabaña",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña."
+    },
+    {
+        "id":"6",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "ciudad",
+        "title": "Casa",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña."
+    },
+    {
+        "id":"7",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "campo",
+        "title": "Casa",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña."
+    },
+    {
+        "id":"8",
+        "img": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "category": "campo",
+        "title": "Cabaña",
+        "location":"Las Grutas",
+        "description":"Este alojamiento se encuentra a 50 metros de la playa de Ilha das Cabras y a 4 km del centro de la isla de Ilhabela. Ofrece habitaciones con balcón, vistas preciosas al mar y cocina pequeña."
+    }
+]

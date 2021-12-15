@@ -1,0 +1,302 @@
+{
+	"id": "232fb124-06b5-4305-8de0-dc187054b940",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-11-27T02:07:15.457Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-1d541dcf-48a6-4856-aa23-272063972931",
+	"environment_id": "0",
+	"totalPass": 13,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "9523f388-8936-4de7-b1ab-785d33db79eb",
+			"name": "ADD Image [Pool1]",
+			"url": "http://localhost:8080/images/register",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "b172fdf3-fd59-4530-9b29-a647804da3ac",
+			"name": "ADD Image [Pool2]",
+			"url": "http://localhost:8080/images/register",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "de1e5197-56d4-4f7e-b65a-e57a67538afa",
+			"name": "ADD Image [Pool3]",
+			"url": "http://localhost:8080/images/register",
+			"time": 38,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				38
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "d4a6959a-9d51-4178-b091-a8c593d3a967",
+			"name": "ADD Image [Pool4]",
+			"url": "http://localhost:8080/images/register",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Images entity": true
+				}
+			]
+		},
+		{
+			"id": "eee604e3-867e-4c41-afe3-3d8d1cf474a6",
+			"name": "RE - ADD Image [Pool1]",
+			"url": "http://localhost:8080/images/register",
+			"time": 36,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": false
+				}
+			]
+		},
+		{
+			"id": "0b94796f-a7a3-4c73-ac4b-e32e47c0d127",
+			"name": "LIST ALL Images",
+			"url": "http://localhost:8080/images",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "ecd9b4ed-e4c7-4a93-8d0c-f985735e965e",
+			"name": "FIND Image BY id [1]",
+			"url": "http://localhost:8080/images/id/1",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The image was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The image was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The image was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "fca1cb15-ecd1-4fb9-9981-3fca74c63611",
+			"name": "UPDATE Image [id:2-urlImage]",
+			"url": "http://localhost:8080/images/update",
+			"time": 89,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct updating of an existing register in the Images entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct updating of an existing register in the Images entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct updating of an existing register in the Images entity": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 367,
+	"collection": {
+		"requests": [
+			{
+				"id": "9523f388-8936-4de7-b1ab-785d33db79eb",
+				"method": "POST"
+			},
+			{
+				"id": "b172fdf3-fd59-4530-9b29-a647804da3ac",
+				"method": "POST"
+			},
+			{
+				"id": "de1e5197-56d4-4f7e-b65a-e57a67538afa",
+				"method": "POST"
+			},
+			{
+				"id": "d4a6959a-9d51-4178-b091-a8c593d3a967",
+				"method": "POST"
+			},
+			{
+				"id": "eee604e3-867e-4c41-afe3-3d8d1cf474a6",
+				"method": "POST"
+			},
+			{
+				"id": "0b94796f-a7a3-4c73-ac4b-e32e47c0d127",
+				"method": "GET"
+			},
+			{
+				"id": "ecd9b4ed-e4c7-4a93-8d0c-f985735e965e",
+				"method": "GET"
+			},
+			{
+				"id": "fca1cb15-ecd1-4fb9-9981-3fca74c63611",
+				"method": "PUT"
+			}
+		]
+	}
+}

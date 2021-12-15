@@ -1,0 +1,339 @@
+{
+	"id": "05b74788-68f1-43a5-864d-7a6b419fc285",
+	"name": "PFI Sprint 3",
+	"timestamp": "2021-11-27T02:05:19.729Z",
+	"collection_id": "16755755-3680015b-14c4-4d06-9419-93cfa82f9f81",
+	"folder_id": "16755755-e8225c45-eb77-4191-9a59-a1142afcd8d0",
+	"environment_id": "0",
+	"totalPass": 16,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a11f554b-7dbf-41bc-b44b-8f83567f2223",
+			"name": "ADD Category [Montaña]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "e7753482-6554-4999-af45-0a02349a9d9f",
+			"name": "ADD Category [Playa]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 53,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				53
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "ab5136bc-2638-4788-8ee7-3a7dcff43f9b",
+			"name": "ADD Category [Campo]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "4e96f635-2298-4077-81ce-78a68098a630",
+			"name": "ADD Category [Ciudad]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		},
+		{
+			"id": "0512a06f-629d-44bf-b5e7-b9ba2e5e3202",
+			"name": "RE - ADD Category [Montaña]",
+			"url": "http://localhost:8080/categories/register",
+			"time": 31,
+			"responseCode": {
+				"code": 409,
+				"name": "Conflict"
+			},
+			"tests": {
+				"STATUS CODE: 409": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 409": true
+				}
+			]
+		},
+		{
+			"id": "1d0c7f08-e77d-4176-960b-4e2076e5b4e2",
+			"name": "LIST ALL Categories",
+			"url": "http://localhost:8080/categories",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				57
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true
+				}
+			]
+		},
+		{
+			"id": "df2dca66-b452-4346-bd7a-74856691684e",
+			"name": "FIND Category BY id [1]",
+			"url": "http://localhost:8080/categories/id/1",
+			"time": 37,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The category was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The category was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				37
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The category was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "46f23050-8f7d-4e5c-ab8b-2f038c8f2699",
+			"name": "FIND Category BY titulo [Playa]",
+			"url": "http://localhost:8080/categories/Playa",
+			"time": 46,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"The category was loaded correctly": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"The category was loaded correctly": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				46
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"The category was loaded correctly": true
+				}
+			]
+		},
+		{
+			"id": "97b16a6f-0342-4ac8-9045-132b55e5c9e2",
+			"name": "UPDATE Category [id:3-urlImagen]",
+			"url": "http://localhost:8080/categories/update",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"STATUS CODE: 200": true,
+				"Correct insertion of a new register in the Categories entity": true
+			},
+			"testPassFailCounts": {
+				"STATUS CODE: 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Correct insertion of a new register in the Categories entity": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"STATUS CODE: 200": true,
+					"Correct insertion of a new register in the Categories entity": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 531,
+	"collection": {
+		"requests": [
+			{
+				"id": "a11f554b-7dbf-41bc-b44b-8f83567f2223",
+				"method": "POST"
+			},
+			{
+				"id": "e7753482-6554-4999-af45-0a02349a9d9f",
+				"method": "POST"
+			},
+			{
+				"id": "ab5136bc-2638-4788-8ee7-3a7dcff43f9b",
+				"method": "POST"
+			},
+			{
+				"id": "4e96f635-2298-4077-81ce-78a68098a630",
+				"method": "POST"
+			},
+			{
+				"id": "0512a06f-629d-44bf-b5e7-b9ba2e5e3202",
+				"method": "POST"
+			},
+			{
+				"id": "1d0c7f08-e77d-4176-960b-4e2076e5b4e2",
+				"method": "GET"
+			},
+			{
+				"id": "df2dca66-b452-4346-bd7a-74856691684e",
+				"method": "GET"
+			},
+			{
+				"id": "46f23050-8f7d-4e5c-ab8b-2f038c8f2699",
+				"method": "GET"
+			},
+			{
+				"id": "97b16a6f-0342-4ac8-9045-132b55e5c9e2",
+				"method": "PUT"
+			}
+		]
+	}
+}

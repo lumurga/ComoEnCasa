@@ -1,0 +1,560 @@
+@import "../../Styles/Variables/colors";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import 'react-calendar/dist/Calendar.css';
+
+.locationContainer {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 2vh 2.5rem;
+
+  background-color: $color-grey-3;
+  color: $color-grey-4;
+
+  .location {
+    width: 37%;
+    display: flex;
+    p {
+      margin-left: 0.5rem;
+    }
+  }
+
+  .calification {
+    height: 30px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    color: $color-grey-4;
+
+    #points {
+      margin-left: 10px;
+      padding: 7px 10px;
+      background: $color-grey-4;
+      border-radius: 10px;
+      color: white;
+    }
+  }
+}
+
+.social {
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: $color-grey-4;
+
+  #iconHeart,
+  #iconShare {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+  }
+}
+
+.description {
+  width: 100%;
+  padding: 5vh 2.5rem 0;
+
+  color: $color-grey-4;
+
+  h2 {
+    font-weight: bold;
+  }
+
+  p {
+    padding-top: 5vh;
+  }
+}
+
+.features {
+  width: 100%;
+  padding-top: 5vh;
+
+  color: $color-grey-4;
+
+  h2 {
+    padding: 0 2.5rem 2vh;
+
+    font-weight: bold;
+  }
+
+  hr {
+    padding: 0;
+    color: $color-green-1;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5vh 3rem 2vh;
+
+    .iconProducto {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 6vh;
+
+      p {
+        margin-left: 3%;
+      }
+
+      .svg-inline--fa {
+        color: $color-green-2;
+        width: 10%;
+      }
+    }
+  }
+}
+
+.dates {
+  padding: 5vh 2.5rem 5vh;
+  background-color: $color-grey-3;
+  color: $color-grey-4;
+
+  h2 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 2vh;
+
+    font-weight: bold;
+  }
+
+  .otra {
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 52vh;
+    grid-template-areas: "calendar calendar reserva";
+    grid-gap: 15px;
+
+    .calendar {
+      grid-area: calendar;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%; 
+      height: 100%;
+      //   background-color: $color-white-2;
+
+      & > div {
+        width: 100%;
+        height: 100%;
+      }
+
+      // .react-datepicker:nth-child(1) {
+      //   color: lime;
+      // }
+
+      .react-datepicker {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        border:none;
+        box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+
+        .react-datepicker__month-container {
+          justify-self: center;
+          height: 100%;
+          width: 100%;
+          //border-right: 2px solid;
+
+          .react-datepicker__header {
+            background: transparent;
+            border: none;
+            padding: 0;
+            margin-top: 1rem;
+  
+            .react-datepicker__current-month{
+              padding-bottom: 1rem;
+              text-transform: capitalize;
+            }
+          }
+
+          .react-datepicker__month{
+            margin: 0;
+            padding: 0;
+          }
+
+          .react-datepicker__day-names{
+            padding-bottom: 0.5rem;
+
+          }
+        }
+
+        /* Flechas */
+
+        .react-datepicker__navigation {
+          border-radius: 50%;
+          top: 45%;
+        }
+
+        .react-datepicker__navigation--next{
+          background-color: $color-brown-1;
+          margin-right: 1%;
+        }
+        
+        .react-datepicker__navigation--previous{
+          background-color: $color-brown-1;
+          margin-left: 1%;
+        }
+
+
+        .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+          display: inline-block;
+          width: 2.5vw;
+          //line-height: 5.5vh;
+          text-align: center;
+          margin: 0.2rem;
+        }
+    
+        .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .booking {
+      grid-area: reserva;
+      height: 45%;
+
+      padding: 10px;
+
+      align-self: center;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+        "p"
+        "button";
+      grid-gap: 20px;
+
+      background-color: $color-white-1;
+
+      border-radius: 5px;
+      box-shadow: 0px 1px 5px -2px rgba(0,0,0,0.42);
+
+      p {
+        grid-area: p;
+        align-self: center;
+      }
+
+      .productButton {
+        grid-area: button;
+        border: none;
+        border-radius: 5px;
+        background-color: $color-brown-1;
+        color: $color-white-1;
+        font-weight: 700;
+        font-size: large;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $color-white-1;
+          color: $color-brown-1;
+          border: solid 1.5px $color-brown-1;
+        }
+      }
+    }
+  }
+}
+
+.maps {
+  padding: 5vh 0rem 0vh;
+
+  color: $color-grey-4;
+  height: 70vh;
+
+  h2 {
+    padding: 0 2.5rem 2vh;
+    font-weight: bold;
+  }
+
+  hr {
+    padding: 0;
+    color: $color-green-1;
+  }
+
+  p {
+    padding: 5vh 3rem 2vh;
+  }
+
+  .map {
+    margin: 0vh 3rem 0vh;
+    background-color: $color-white-2;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+
+    .leaflet-container{
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+}
+
+
+
+@media (max-width: 820px) {
+  .locationContainer {
+    padding: 2vh 1.5rem;
+
+    .location {
+      width: 63%;
+    }
+  }
+
+  .social {
+    padding: 0vh 1.5rem;
+    height: 5vh;
+
+    #iconHeart,
+    #iconShare {
+      cursor: pointer;
+      width: 30px;
+      height: 20px;
+    }
+  }
+
+  .description {
+    padding: 4vh 1.5rem 0; // si lo pongo así ->  4vh 1.5rem 0 desde la vista mobile en el navegador de la computadora se ve con mucho espacio entre la galeria y el h2 pero SE VE BIEN desde el celu, por lo tanto para el momento de la review ponerlo como -> padding: 0vh 1.5rem 0;
+
+    color: $color-grey-4;
+
+    h2 {
+      font-weight: bold;
+    }
+
+    p {
+      padding-top: 3vh;
+    }
+  }
+
+  .features {
+    padding-top: 4vh;
+
+    color: $color-grey-4;
+
+    h2 {
+      padding: 0 1.5rem 2vh;
+
+      font-weight: bold;
+    }
+
+    hr {
+      padding: 0;
+      color: $color-green-1;
+    }
+
+    .icons {
+      grid-template-columns: 1fr 1fr;
+      padding: 3vh 2rem 0;
+
+      .iconProducto {
+        margin-bottom: 4vh;
+
+        p {
+          margin-left: 5%;
+        }
+      }
+    }
+  }
+
+  .dates {
+    padding: 2vh 1.5rem 3vh;
+    background-color: $color-grey-3;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      padding-bottom: 2vh;
+    }
+
+    .otra {
+      grid-template-columns: 1fr;
+      grid-template-rows: 30vh 5vh;
+      grid-template-areas:
+        "calendar"
+        "reserva";
+
+      .calendar {
+        .react-datepicker {
+          .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+            width: 4vw;
+            margin: 0.2rem;
+          }
+        }
+      }
+  
+      .booking {
+        width: 100%;
+        height: 100%;
+        padding: 0 0.3rem;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "p button";
+
+        background-color: $color-grey-3;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .maps {
+    padding: 4vh 0rem 0vh;
+
+    h2 {
+      padding: 0 1.5rem 2vh;
+    }
+
+    p {
+      padding: 2vh 2rem 2vh;
+    }
+
+    .map {
+      margin: 0 2rem 0;
+      height: 40vh;
+    }
+  }
+}
+
+@media (max-width: 428px) {
+
+  .locationContainer {
+    padding: 2vh 1rem;
+
+    font-size: small;
+  }
+
+  .social {
+    justify-content: flex-start;
+    position: absolute;
+    z-index: 11;
+    color: $color-white-1;
+    padding: 0 0.5rem;
+
+    width: 100vw;
+  }
+
+  .description {
+    padding: 4vh 1rem 0;
+
+    p {
+      padding-top: 2vh;
+    }
+  }
+
+  .features {
+    padding-top: 4vh;
+
+    h2 {
+      padding: 0 1rem 2vh;
+
+      font-weight: bold;
+    }
+
+    .icons {
+      padding: 3vh 1.5rem 0;
+    }
+  }
+
+  .dates {
+    padding: 2vh 1rem 3vh;
+
+    .otra {
+      padding-top: 2vh;
+
+      grid-template-columns: 1fr;
+      grid-template-rows: 39vh 15vh;
+      grid-template-areas:
+        "calendar"
+        "reserva";
+
+        .calendar {
+
+          .react-datepicker {
+            grid-template-columns: 1fr;
+    
+            .react-datepicker__month-container {
+              border: none; 
+
+              .react-datepicker__header {
+                margin-top: 1rem;
+              }
+            }
+
+            .react-datepicker__navigation {
+              border-radius: 0;
+              background: transparent;
+              top: 0.8rem;
+            }
+    
+            .react-datepicker__navigation--next{
+              margin-right: 2%;
+            }
+            
+            .react-datepicker__navigation--previous{
+              margin-left: 2%;
+            }
+    
+            .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+              width: 10vw;
+              margin: 0.25rem;
+            }
+          }
+        }
+
+      .booking {
+        height: 100%;
+        justify-self: center;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+          "p"
+          "button";
+        grid-gap: 15px;
+
+        p {
+          width: 100%;
+          margin-bottom: 0;
+        }
+
+        .productButton {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .maps {
+    padding: 4vh 0rem 0vh;
+
+    h2 {
+      padding: 0 1rem 2vh;
+    }
+
+    p {
+      padding: 2vh 1.5rem 2vh;
+    }
+
+    .map {
+      margin: 0 1.5rem 0;
+      height: 35vh;
+    }
+  }
+}
