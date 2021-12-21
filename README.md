@@ -1,6 +1,6 @@
 # Certified Tech Dev - Proyecto Integrador / _Final Project_
 
-[COMO EN CASA](http://52.67.178.177/) 
+[COMO EN CASA](http://18.231.101.246/) 
 
 ![LOGO](logo.png "LOGO Como En Casa")
  
