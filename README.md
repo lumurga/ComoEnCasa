@@ -24,7 +24,7 @@ _Website development for managing accommodation reservations (cabins, houses or 
 
 
 ## Documentación / _Documentation_ 📑
-[API Docs](http://52.67.178.177:8080/swagger-ui.html)
+[API Docs](http://18.231.101.246:8080/swagger-ui.html)
 
 ## Equipo / Development team 🧠
 - [Aurrecoechea, Ignacio](https://www.linkedin.com/in/ignacio-aurrecoechea/) - [ignacioaurre](https://github.com/ignacioaurre)
